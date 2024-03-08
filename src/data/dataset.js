@@ -1,6 +1,6 @@
 export default [
-  {
-    "id": "arenal-volcano",
+  {// 01_Volcán Arenal
+    "id": "01_lugarTuristico",
     "name": "Volcán Arenal",
     "location": "Alajuela",
     "shortDescription": "Impresionante volcán activo con vistas panorámicas.",
@@ -14,8 +14,8 @@ export default [
       "alimentacion": "Restaurante El Cráter"
     }
   },
-  {
-    "id": "manuel-antonio",
+  {//02_Parque Nacional Manuel Antonio
+    "id": "02_lugarTuristico",
     "name": "Parque Nacional Manuel Antonio",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con playas prístinas y diversidad de vida silvestre.",
@@ -29,8 +29,8 @@ export default [
       "alimentacion": "Restaurante Mariscos del Pacífico"
     }
   },
-  {
-    "id": "monteverde-cloud-forest",
+  {//03_Reserva Biológica Bosque Nuboso Monteverde
+    "id": "03_lugarTuristico",
     "name": "Reserva Biológica Bosque Nuboso Monteverde",
     "location": "Puntarenas",
     "shortDescription": "Explora un bosque nuboso lleno de biodiversidad única.",
@@ -44,8 +44,8 @@ export default [
       "alimentacion": "Café Sostenible Monteverde"
     }
   },
-  {
-    "id": "tortuguero-national-park",
+  {//04_Parque Nacional Tortuguero
+    "id": "04_lugarTuristico",
     "name": "Parque Nacional Tortuguero",
     "location": "Limón",
     "shortDescription": "Refugio de tortugas marinas rodeado de canales y exuberante vegetación.",
@@ -59,8 +59,8 @@ export default [
       "alimentacion": "Restaurante Sabores Tropicales"
     }
   },
-  {
-    "id": "corcovado-national-park",
+  {//05_Parque Nacional Corcovado
+    "id": "05_lugarTuristico",
     "name": "Parque Nacional Corcovado",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con selva tropical y vida silvestre diversa.",
@@ -74,8 +74,8 @@ export default [
       "alimentacion": "Restaurante Selva Sabrosa"
     }
   },
-  {
-    "id": "rincon-de-la-vieja",
+  {//06_Parque Nacional Rincón de la Vieja
+    "id": "06_lugarTuristico",
     "name": "Parque Nacional Rincón de la Vieja",
     "location": "Guanacaste",
     "shortDescription": "Volcán activo con aguas termales y biodiversidad única.",
@@ -89,8 +89,8 @@ export default [
       "alimentacion": "Restaurante Volcánico"
     }
   },
-  {
-    "id": "teatro-nacional",
+  {//07_Teatro Nacional de Costa Rica
+    "id": "07_lugarTuristico",
     "name": "Teatro Nacional de Costa Rica",
     "location": "San José",
     "shortDescription": "Joyero arquitectónico y cultural en el corazón de San José.",
@@ -104,8 +104,8 @@ export default [
       "alimentacion": "Café del Arte"
     }
 },
-{
-    "id": "playa-conchal",
+{//08_Playa Conchal
+    "id": "08_lugarTuristico",
     "name": "Playa Conchal",
     "location": "Guanacaste",
     "shortDescription": "Playa de arena blanca con conchas marinas en la costa del Pacífico.",
@@ -119,8 +119,8 @@ export default [
       "alimentacion": "Restaurante Mariscos Conchal"
     }
 },
-{
-    "id": "parque-nacional-poas",
+{//09_Parque Nacional Volcán Poás
+    "id": "09_lugarTuristico",
     "name": "Parque Nacional Volcán Poás",
     "location": "Alajuela",
     "shortDescription": "Cráter activo con laguna ácida y bosques nubosos.",
@@ -134,8 +134,8 @@ export default [
       "alimentacion": "Café Vista al Cráter"
     }
 },
-{
-    "id": "cahuita-national-park",
+{//10_Parque Nacional Cahuita
+    "id": "10_lugarTuristico",
     "name": "Parque Nacional Cahuita",
     "location": "Limón",
     "shortDescription": "Reserva marina con arrecifes de coral y selva tropical.",
@@ -149,8 +149,8 @@ export default [
       "alimentacion": "Restaurante Sabores del Mar"
     }
 },
-{
-    "id": "isla-tortuga",
+{//11_Isla Tortuga
+    "id": "11_lugarTuristico",
     "name": "Isla Tortuga",
     "location": "Puntarenas",
     "shortDescription": "Isla paradisíaca con aguas cristalinas y actividades acuáticas.",
@@ -164,8 +164,8 @@ export default [
       "alimentacion": "Restaurante Tropical"
     }
 },
-{
-    "id": "santa-teresa",
+{//12_Santa Teresa
+    "id": "12_lugarTuristico",
     "name": "Santa Teresa",
     "location": "Puntarenas",
     "shortDescription": "Playa tranquila con ambiente bohemio y excelentes olas para surfear.",
@@ -179,8 +179,8 @@ export default [
       "alimentacion": "Restaurante Mar y Arena"
     }
 },
-{
-    "id": "caño-island-biological-reserve",
+{//13_Reserva Biológica Isla del Caño
+    "id": "13_lugarTuristico",
     "name": "Reserva Biológica Isla del Caño",
     "location": "Puntarenas",
     "shortDescription": "Isla biológica con arrecifes de coral y rica biodiversidad marina.",
@@ -194,8 +194,8 @@ export default [
       "alimentacion": "Restaurante Marina del Caño"
     }
 },
-{
-    "id": "playa-hermosa",
+{//14_Playa Hermosa
+    "id": "14_lugarTuristico",
     "name": "Playa Hermosa",
     "location": "Guanacaste",
     "shortDescription": "Extensa playa con aguas tranquilas y atardeceres impresionantes.",
@@ -209,8 +209,8 @@ export default [
       "alimentacion": "Restaurante Mar y Cielo"
     }
 },
-{
-    "id": "parque-nacional-barra-honda",
+{//15_Parque Nacional Barra Honda
+    "id": "15_lugarTuristico",
     "name": "Parque Nacional Barra Honda",
     "location": "Guanacaste",
     "shortDescription": "Sistema de cuevas subterráneas y formaciones rocosas únicas.",
@@ -224,8 +224,8 @@ export default [
       "alimentacion": "Café Roca Subterránea"
     }
 },
-{
-    "id": "parque-nacional-carara",
+{//16_Parque Nacional Carara
+    "id": "16_lugarTuristico",
     "name": "Parque Nacional Carara",
     "location": "Puntarenas",
     "shortDescription": "Refugio de aves con senderos naturales y densa vegetación.",
@@ -239,8 +239,8 @@ export default [
       "alimentacion": "Café Selva Viva"
     }
 },
-{
-    "id": "cabo-blanco",
+{//17_Reserva Nacional Absoluta Cabo Blanco
+    "id": "17_lugarTuristico",
     "name": "Reserva Nacional Absoluta Cabo Blanco",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con playas prístinas y bosques intocados.",
@@ -254,8 +254,8 @@ export default [
       "alimentacion": "Restaurante Costa Salvaje"
     }
 },
-{
-    "id": "parque-nacional-chirripo",
+{//18_Parque Nacional Chirripó
+    "id": "18_lugarTuristico",
     "name": "Parque Nacional Chirripó",
     "location": "San José",
     "shortDescription": "Montaña más alta de Costa Rica con senderos desafiantes y vistas impresionantes.",
@@ -269,8 +269,8 @@ export default [
       "alimentacion": "Café Cima de la Montaña"
     }
 },
-{
-    "id": "reserva-biológica-hitoy-cerere",
+{//19_Reserva Biológica Hitoy-Cerere
+    "id": "19_lugarTuristico",
     "name": "Reserva Biológica Hitoy-Cerere",
     "location": "Limón",
     "shortDescription": "Humedales y bosques tropicales con una rica variedad de vida silvestre.",
@@ -284,8 +284,8 @@ export default [
       "alimentacion": "Restaurante Selva Encantada"
     }
 },
-{
-    "id": "parque-nacional-tapanti",
+{//20_Parque Nacional Tapantí
+    "id": "20_lugarTuristico",
     "name": "Parque Nacional Tapantí",
     "location": "Cartago",
     "shortDescription": "Bosques nubosos y cascadas en el corazón de la cordillera de Talamanca.",
@@ -299,8 +299,8 @@ export default [
       "alimentacion": "Café Vista a la Cascada"
     }
 },
-{
-    "id": "parque-nacional-tenorio",
+{//21_Parque Nacional Volcán Tenorio
+    "id": "21_lugarTuristico",
     "name": "Parque Nacional Volcán Tenorio",
     "location": "Guanacaste",
     "shortDescription": "Cráter activo, aguas celestiales y la famosa catarata Río Celeste.",
@@ -314,8 +314,8 @@ export default [
       "alimentacion": "Restaurante Celestial"
     }
 },
-{
-    "id": "parque-nacional-isla-del-coco",
+{//22_Parque Nacional Isla del Coco
+    "id": "22_lugarTuristico",
     "name": "Parque Nacional Isla del Coco",
     "location": "Puntarenas",
     "shortDescription": "Reserva marina remota con arrecifes de coral y vida marina única.",
@@ -329,8 +329,8 @@ export default [
       "alimentacion": "Restaurante Océano Azul"
     }
 },
-{
-  "id": "tamarindo",
+{//23_Playa Tamarindo
+  "id": "23_lugarTuristico",
   "name": "Playa Tamarindo",
   "location": "Guanacaste",
   "shortDescription": "Famosa playa con aguas cristalinas y vibrante vida nocturna.",
@@ -344,8 +344,8 @@ export default [
     "alimentacion": "Restaurante Mar y Fiesta"
   }
 },
-{
-  "id": "parque-nacional-piedras-blanca",
+{//24_Parque Nacional Piedras Blancas
+  "id": "24_lugarTuristico",
   "name": "Parque Nacional Piedras Blancas",
   "location": "Puntarenas",
   "shortDescription": "Selva virgen y cascadas impresionantes en la Península de Osa.",
