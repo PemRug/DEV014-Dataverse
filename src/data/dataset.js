@@ -12,7 +12,7 @@ export default [
       "museo": "Museo de Volcanología",
       "compras": "Arte Tico",
       "alimentacion": "Restaurante El Cráter"
-    }
+    },
   },
   {
     "id": "manuel-antonio",
@@ -27,7 +27,7 @@ export default [
       "museo": "undefined",
       "compras": "Mercado Artesanal Manuel Antonio",
       "alimentacion": "Restaurante Mariscos del Pacífico"
-    }
+    },
   },
   {
     "id": "monteverde-cloud-forest",
@@ -42,7 +42,7 @@ export default [
       "museo": "Museo de Historia Natural Monteverde",
       "compras": "Arte y Artesanía Monteverde",
       "alimentacion": "Café Sostenible Monteverde"
-    }
+    },
   },
   {
     "id": "tortuguero-national-park",
@@ -57,7 +57,7 @@ export default [
       "museo": "Museo de Conservación de Tortugas",
       "compras": "Artesanías del Caribe",
       "alimentacion": "Restaurante Sabores Tropicales"
-    }
+    },
   },
   {
     "id": "corcovado-national-park",
@@ -72,7 +72,7 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías Osa Peninsula",
       "alimentacion": "Restaurante Selva Sabrosa"
-    }
+    },
   },
   {
     "id": "rincon-de-la-vieja",
@@ -87,7 +87,7 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías Guanacaste",
       "alimentacion": "Restaurante Volcánico"
-    }
+    },
   },
   {
     "id": "teatro-nacional",
@@ -102,9 +102,9 @@ export default [
       "museo": "Museo del Teatro Nacional",
       "compras": "Tienda de Souvenirs",
       "alimentacion": "Café del Arte"
-    }
-},
-{
+    },
+  },
+  {
     "id": "playa-conchal",
     "name": "Playa Conchal",
     "location": "Guanacaste",
@@ -117,9 +117,9 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Guanacaste",
       "alimentacion": "Restaurante Mariscos Conchal"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-poas",
     "name": "Parque Nacional Volcán Poás",
     "location": "Alajuela",
@@ -132,9 +132,9 @@ export default [
       "museo": "Centro de Interpretación Geológica",
       "compras": "Tienda de Recuerdos Poás",
       "alimentacion": "Café Vista al Cráter"
-    }
-},
-{
+    },
+  },
+  {
     "id": "cahuita-national-park",
     "name": "Parque Nacional Cahuita",
     "location": "Limón",
@@ -147,9 +147,9 @@ export default [
       "museo": "Museo Marino Cahuita",
       "compras": "Artesanías Caribeñas",
       "alimentacion": "Restaurante Sabores del Mar"
-    }
-},
-{
+    },
+  },
+  {
     "id": "isla-tortuga",
     "name": "Isla Tortuga",
     "location": "Puntarenas",
@@ -162,9 +162,9 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Recuerdos Isla Tortuga",
       "alimentacion": "Restaurante Tropical"
-    }
-},
-{
+    },
+  },
+  {
     "id": "santa-teresa",
     "name": "Santa Teresa",
     "location": "Puntarenas",
@@ -177,9 +177,9 @@ export default [
       "museo": "undefined",
       "compras": "Tiendas Locales",
       "alimentacion": "Restaurante Mar y Arena"
-    }
-},
-{
+    },
+  },
+  {
     "id": "caño-island-biological-reserve",
     "name": "Reserva Biológica Isla del Caño",
     "location": "Puntarenas",
@@ -192,9 +192,9 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Buceo",
       "alimentacion": "Restaurante Marina del Caño"
-    }
-},
-{
+    },
+  },
+  {
     "id": "playa-hermosa",
     "name": "Playa Hermosa",
     "location": "Guanacaste",
@@ -207,9 +207,9 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Surf",
       "alimentacion": "Restaurante Mar y Cielo"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-barra-honda",
     "name": "Parque Nacional Barra Honda",
     "location": "Guanacaste",
@@ -222,9 +222,9 @@ export default [
       "museo": "Centro de Interpretación Geológica",
       "compras": "Arte y Artesanía Guanacaste",
       "alimentacion": "Café Roca Subterránea"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-carara",
     "name": "Parque Nacional Carara",
     "location": "Puntarenas",
@@ -237,9 +237,9 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Souvenirs Carara",
       "alimentacion": "Café Selva Viva"
-    }
-},
-{
+    },
+  },
+  {
     "id": "cabo-blanco",
     "name": "Reserva Nacional Absoluta Cabo Blanco",
     "location": "Puntarenas",
@@ -252,9 +252,9 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Cabo Blanco",
       "alimentacion": "Restaurante Costa Salvaje"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-chirripo",
     "name": "Parque Nacional Chirripó",
     "location": "San José",
@@ -267,9 +267,9 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Chirripó",
       "alimentacion": "Café Cima de la Montaña"
-    }
-},
-{
+    },
+  },
+  {
     "id": "reserva-biológica-hitoy-cerere",
     "name": "Reserva Biológica Hitoy-Cerere",
     "location": "Limón",
@@ -282,9 +282,9 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías del Caribe",
       "alimentacion": "Restaurante Selva Encantada"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-tapanti",
     "name": "Parque Nacional Tapantí",
     "location": "Cartago",
@@ -297,9 +297,9 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Cartago",
       "alimentacion": "Café Vista a la Cascada"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-tenorio",
     "name": "Parque Nacional Volcán Tenorio",
     "location": "Guanacaste",
@@ -312,9 +312,9 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías Guanacaste",
       "alimentacion": "Restaurante Celestial"
-    }
-},
-{
+    },
+  },
+  {
     "id": "parque-nacional-isla-del-coco",
     "name": "Parque Nacional Isla del Coco",
     "location": "Puntarenas",
@@ -327,37 +327,37 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Buceo",
       "alimentacion": "Restaurante Océano Azul"
-    }
-},
-{
-  "id": "tamarindo",
-  "name": "Playa Tamarindo",
-  "location": "Guanacaste",
-  "shortDescription": "Famosa playa con aguas cristalinas y vibrante vida nocturna.",
-  "description": "Tamarindo es un icónico destino de playa conocido por sus aguas cristalinas, olas ideales para el surf y su animada vida nocturna. Disfruta de días soleados en la playa, practica deportes acuáticos emocionantes y sumérgete en la atmósfera relajada y divertida de Tamarindo. Con una variedad de restaurantes y bares, este destino tiene algo para todos los gustos.",
-  "imageUrl": "URL_IMAGEN_TAMARINDO",
-  "tipoTurismo": "turismo de playa",
-  "gastoPromedio": 90,
-  "actividades": {
-    "museo": "undefined",
-    "compras": "Tiendas Locales Tamarindo",
-    "alimentacion": "Restaurante Mar y Fiesta"
-  }
-},
-{
-  "id": "parque-nacional-piedras-blanca",
-  "name": "Parque Nacional Piedras Blancas",
-  "location": "Puntarenas",
-  "shortDescription": "Selva virgen y cascadas impresionantes en la Península de Osa.",
-  "description": "Piedras Blancas es un tesoro natural en la Península de Osa, con selva virgen, ríos cristalinos y cascadas impresionantes. Explora senderos que te llevan a la riqueza biológica de la región, hogar de jaguares, monos y aves exóticas. Este parque nacional ofrece una experiencia inmersiva en la naturaleza virgen de Costa Rica.",
-  "imageUrl": "URL_IMAGEN_PIEDRAS_BLANCAS",
-  "tipoTurismo": "turismo de aventura",
-  "gastoPromedio": 100,
-  "actividades": {
-    "museo": "undefined",
-    "compras": "Artesanías Osa Peninsula",
-    "alimentacion": "Restaurante Selva Fresca"
-  }
-},
-    
+    },
+  },
+  {
+    "id": "tamarindo",
+    "name": "Playa Tamarindo",
+    "location": "Guanacaste",
+    "shortDescription": "Famosa playa con aguas cristalinas y vibrante vida nocturna.",
+    "description": "Tamarindo es un icónico destino de playa conocido por sus aguas cristalinas, olas ideales para el surf y su animada vida nocturna. Disfruta de días soleados en la playa, practica deportes acuáticos emocionantes y sumérgete en la atmósfera relajada y divertida de Tamarindo. Con una variedad de restaurantes y bares, este destino tiene algo para todos los gustos.",
+    "imageUrl": "URL_IMAGEN_TAMARINDO",
+    "tipoTurismo": "turismo de playa",
+    "gastoPromedio": 90,
+    "actividades": {
+      "museo": "undefined",
+      "compras": "Tiendas Locales Tamarindo",
+      "alimentacion": "Restaurante Mar y Fiesta"
+    },
+  },
+  {
+    "id": "parque-nacional-piedras-blanca",
+    "name": "Parque Nacional Piedras Blancas",
+    "location": "Puntarenas",
+    "shortDescription": "Selva virgen y cascadas impresionantes en la Península de Osa.",
+    "description": "Piedras Blancas es un tesoro natural en la Península de Osa, con selva virgen, ríos cristalinos y cascadas impresionantes. Explora senderos que te llevan a la riqueza biológica de la región, hogar de jaguares, monos y aves exóticas. Este parque nacional ofrece una experiencia inmersiva en la naturaleza virgen de Costa Rica.",
+    "imageUrl": "URL_IMAGEN_PIEDRAS_BLANCAS",
+    "tipoTurismo": "turismo de aventura",
+    "gastoPromedio": 100,
+    "actividades": {
+      "museo": "undefined",
+      "compras": "Artesanías Osa Peninsula",
+      "alimentacion": "Restaurante Selva Fresca"
+    },
+  },
+
 ];
