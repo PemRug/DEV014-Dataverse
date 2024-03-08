@@ -1,6 +1,6 @@
 export default [
-  {
-    "id": "arenal-volcano",
+  {// 01_Volcán Arenal
+    "id": "01_lugarTuristico",
     "name": "Volcán Arenal",
     "location": "Alajuela",
     "shortDescription": "Impresionante volcán activo con vistas panorámicas.",
@@ -14,8 +14,8 @@ export default [
       "alimentacion": "Restaurante El Cráter"
     },
   },
-  {
-    "id": "manuel-antonio",
+  {//02_Parque Nacional Manuel Antonio
+    "id": "02_lugarTuristico",
     "name": "Parque Nacional Manuel Antonio",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con playas prístinas y diversidad de vida silvestre.",
@@ -29,8 +29,8 @@ export default [
       "alimentacion": "Restaurante Mariscos del Pacífico"
     },
   },
-  {
-    "id": "monteverde-cloud-forest",
+  {//03_Reserva Biológica Bosque Nuboso Monteverde
+    "id": "03_lugarTuristico",
     "name": "Reserva Biológica Bosque Nuboso Monteverde",
     "location": "Puntarenas",
     "shortDescription": "Explora un bosque nuboso lleno de biodiversidad única.",
@@ -44,8 +44,8 @@ export default [
       "alimentacion": "Café Sostenible Monteverde"
     },
   },
-  {
-    "id": "tortuguero-national-park",
+  {//04_Parque Nacional Tortuguero
+    "id": "04_lugarTuristico",
     "name": "Parque Nacional Tortuguero",
     "location": "Limón",
     "shortDescription": "Refugio de tortugas marinas rodeado de canales y exuberante vegetación.",
@@ -59,8 +59,8 @@ export default [
       "alimentacion": "Restaurante Sabores Tropicales"
     },
   },
-  {
-    "id": "corcovado-national-park",
+  {//05_Parque Nacional Corcovado
+    "id": "05_lugarTuristico",
     "name": "Parque Nacional Corcovado",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con selva tropical y vida silvestre diversa.",
@@ -74,8 +74,8 @@ export default [
       "alimentacion": "Restaurante Selva Sabrosa"
     },
   },
-  {
-    "id": "rincon-de-la-vieja",
+  {//06_Parque Nacional Rincón de la Vieja
+    "id": "06_lugarTuristico",
     "name": "Parque Nacional Rincón de la Vieja",
     "location": "Guanacaste",
     "shortDescription": "Volcán activo con aguas termales y biodiversidad única.",
@@ -89,8 +89,8 @@ export default [
       "alimentacion": "Restaurante Volcánico"
     },
   },
-  {
-    "id": "teatro-nacional",
+  {//07_Teatro Nacional de Costa Rica
+    "id": "07_lugarTuristico",
     "name": "Teatro Nacional de Costa Rica",
     "location": "San José",
     "shortDescription": "Joyero arquitectónico y cultural en el corazón de San José.",
@@ -102,10 +102,17 @@ export default [
       "museo": "Museo del Teatro Nacional",
       "compras": "Tienda de Souvenirs",
       "alimentacion": "Café del Arte"
+<<<<<<< HEAD
     },
   },
   {
     "id": "playa-conchal",
+=======
+    }
+},
+{//08_Playa Conchal
+    "id": "08_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Playa Conchal",
     "location": "Guanacaste",
     "shortDescription": "Playa de arena blanca con conchas marinas en la costa del Pacífico.",
@@ -117,10 +124,17 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Guanacaste",
       "alimentacion": "Restaurante Mariscos Conchal"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-poas",
+=======
+    }
+},
+{//09_Parque Nacional Volcán Poás
+    "id": "09_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Volcán Poás",
     "location": "Alajuela",
     "shortDescription": "Cráter activo con laguna ácida y bosques nubosos.",
@@ -132,10 +146,17 @@ export default [
       "museo": "Centro de Interpretación Geológica",
       "compras": "Tienda de Recuerdos Poás",
       "alimentacion": "Café Vista al Cráter"
+<<<<<<< HEAD
     },
   },
   {
     "id": "cahuita-national-park",
+=======
+    }
+},
+{//10_Parque Nacional Cahuita
+    "id": "10_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Cahuita",
     "location": "Limón",
     "shortDescription": "Reserva marina con arrecifes de coral y selva tropical.",
@@ -147,10 +168,17 @@ export default [
       "museo": "Museo Marino Cahuita",
       "compras": "Artesanías Caribeñas",
       "alimentacion": "Restaurante Sabores del Mar"
+<<<<<<< HEAD
     },
   },
   {
     "id": "isla-tortuga",
+=======
+    }
+},
+{//11_Isla Tortuga
+    "id": "11_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Isla Tortuga",
     "location": "Puntarenas",
     "shortDescription": "Isla paradisíaca con aguas cristalinas y actividades acuáticas.",
@@ -162,10 +190,17 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Recuerdos Isla Tortuga",
       "alimentacion": "Restaurante Tropical"
+<<<<<<< HEAD
     },
   },
   {
     "id": "santa-teresa",
+=======
+    }
+},
+{//12_Santa Teresa
+    "id": "12_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Santa Teresa",
     "location": "Puntarenas",
     "shortDescription": "Playa tranquila con ambiente bohemio y excelentes olas para surfear.",
@@ -177,10 +212,17 @@ export default [
       "museo": "undefined",
       "compras": "Tiendas Locales",
       "alimentacion": "Restaurante Mar y Arena"
+<<<<<<< HEAD
     },
   },
   {
     "id": "caño-island-biological-reserve",
+=======
+    }
+},
+{//13_Reserva Biológica Isla del Caño
+    "id": "13_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Reserva Biológica Isla del Caño",
     "location": "Puntarenas",
     "shortDescription": "Isla biológica con arrecifes de coral y rica biodiversidad marina.",
@@ -192,10 +234,17 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Buceo",
       "alimentacion": "Restaurante Marina del Caño"
+<<<<<<< HEAD
     },
   },
   {
     "id": "playa-hermosa",
+=======
+    }
+},
+{//14_Playa Hermosa
+    "id": "14_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Playa Hermosa",
     "location": "Guanacaste",
     "shortDescription": "Extensa playa con aguas tranquilas y atardeceres impresionantes.",
@@ -207,10 +256,17 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Surf",
       "alimentacion": "Restaurante Mar y Cielo"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-barra-honda",
+=======
+    }
+},
+{//15_Parque Nacional Barra Honda
+    "id": "15_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Barra Honda",
     "location": "Guanacaste",
     "shortDescription": "Sistema de cuevas subterráneas y formaciones rocosas únicas.",
@@ -222,10 +278,17 @@ export default [
       "museo": "Centro de Interpretación Geológica",
       "compras": "Arte y Artesanía Guanacaste",
       "alimentacion": "Café Roca Subterránea"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-carara",
+=======
+    }
+},
+{//16_Parque Nacional Carara
+    "id": "16_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Carara",
     "location": "Puntarenas",
     "shortDescription": "Refugio de aves con senderos naturales y densa vegetación.",
@@ -237,10 +300,17 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Souvenirs Carara",
       "alimentacion": "Café Selva Viva"
+<<<<<<< HEAD
     },
   },
   {
     "id": "cabo-blanco",
+=======
+    }
+},
+{//17_Reserva Nacional Absoluta Cabo Blanco
+    "id": "17_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Reserva Nacional Absoluta Cabo Blanco",
     "location": "Puntarenas",
     "shortDescription": "Reserva natural con playas prístinas y bosques intocados.",
@@ -252,10 +322,17 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Cabo Blanco",
       "alimentacion": "Restaurante Costa Salvaje"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-chirripo",
+=======
+    }
+},
+{//18_Parque Nacional Chirripó
+    "id": "18_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Chirripó",
     "location": "San José",
     "shortDescription": "Montaña más alta de Costa Rica con senderos desafiantes y vistas impresionantes.",
@@ -267,10 +344,17 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Chirripó",
       "alimentacion": "Café Cima de la Montaña"
+<<<<<<< HEAD
     },
   },
   {
     "id": "reserva-biológica-hitoy-cerere",
+=======
+    }
+},
+{//19_Reserva Biológica Hitoy-Cerere
+    "id": "19_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Reserva Biológica Hitoy-Cerere",
     "location": "Limón",
     "shortDescription": "Humedales y bosques tropicales con una rica variedad de vida silvestre.",
@@ -282,10 +366,17 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías del Caribe",
       "alimentacion": "Restaurante Selva Encantada"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-tapanti",
+=======
+    }
+},
+{//20_Parque Nacional Tapantí
+    "id": "20_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Tapantí",
     "location": "Cartago",
     "shortDescription": "Bosques nubosos y cascadas en el corazón de la cordillera de Talamanca.",
@@ -297,10 +388,17 @@ export default [
       "museo": "undefined",
       "compras": "Arte y Artesanía Cartago",
       "alimentacion": "Café Vista a la Cascada"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-tenorio",
+=======
+    }
+},
+{//21_Parque Nacional Volcán Tenorio
+    "id": "21_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Volcán Tenorio",
     "location": "Guanacaste",
     "shortDescription": "Cráter activo, aguas celestiales y la famosa catarata Río Celeste.",
@@ -312,10 +410,17 @@ export default [
       "museo": "undefined",
       "compras": "Artesanías Guanacaste",
       "alimentacion": "Restaurante Celestial"
+<<<<<<< HEAD
     },
   },
   {
     "id": "parque-nacional-isla-del-coco",
+=======
+    }
+},
+{//22_Parque Nacional Isla del Coco
+    "id": "22_lugarTuristico",
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
     "name": "Parque Nacional Isla del Coco",
     "location": "Puntarenas",
     "shortDescription": "Reserva marina remota con arrecifes de coral y vida marina única.",
@@ -327,6 +432,7 @@ export default [
       "museo": "undefined",
       "compras": "Tienda de Buceo",
       "alimentacion": "Restaurante Océano Azul"
+<<<<<<< HEAD
     },
   },
   {
@@ -360,4 +466,39 @@ export default [
     },
   },
 
+=======
+    }
+},
+{//23_Playa Tamarindo
+  "id": "23_lugarTuristico",
+  "name": "Playa Tamarindo",
+  "location": "Guanacaste",
+  "shortDescription": "Famosa playa con aguas cristalinas y vibrante vida nocturna.",
+  "description": "Tamarindo es un icónico destino de playa conocido por sus aguas cristalinas, olas ideales para el surf y su animada vida nocturna. Disfruta de días soleados en la playa, practica deportes acuáticos emocionantes y sumérgete en la atmósfera relajada y divertida de Tamarindo. Con una variedad de restaurantes y bares, este destino tiene algo para todos los gustos.",
+  "imageUrl": "URL_IMAGEN_TAMARINDO",
+  "tipoTurismo": "turismo de playa",
+  "gastoPromedio": 90,
+  "actividades": {
+    "museo": "undefined",
+    "compras": "Tiendas Locales Tamarindo",
+    "alimentacion": "Restaurante Mar y Fiesta"
+  }
+},
+{//24_Parque Nacional Piedras Blancas
+  "id": "24_lugarTuristico",
+  "name": "Parque Nacional Piedras Blancas",
+  "location": "Puntarenas",
+  "shortDescription": "Selva virgen y cascadas impresionantes en la Península de Osa.",
+  "description": "Piedras Blancas es un tesoro natural en la Península de Osa, con selva virgen, ríos cristalinos y cascadas impresionantes. Explora senderos que te llevan a la riqueza biológica de la región, hogar de jaguares, monos y aves exóticas. Este parque nacional ofrece una experiencia inmersiva en la naturaleza virgen de Costa Rica.",
+  "imageUrl": "URL_IMAGEN_PIEDRAS_BLANCAS",
+  "tipoTurismo": "turismo de aventura",
+  "gastoPromedio": 100,
+  "actividades": {
+    "museo": "undefined",
+    "compras": "Artesanías Osa Peninsula",
+    "alimentacion": "Restaurante Selva Fresca"
+  }
+},
+    
+>>>>>>> def1cf7bece23faebad9230b25a10e167f35575e
 ];
