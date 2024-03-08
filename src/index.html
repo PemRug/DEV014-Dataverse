@@ -6,6 +6,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1></h1>
+      <p><label for="filtar" >Filtar </label><select data-testid="select-filter" name="filtrar" id="filtar">
+        <option value="provincia">Provincia</option>
+        <option value="precio">Precio</option>
+        <option value="tipoTurismo">Tipo de Turismo</option>
+      </select></p>
+      <p><label for="ordenar">Ordenar </label><select data-testid="select-sort" name="ordenar" id="ordenar">
+        <option value="asc">A - Z</option>
+        <option value="asc">Z - A</option>
+      </select></p>
+      <p><button data-testid="button-clear">Limpiar</button></p>
+    </header>
+    <main>
+      <h2></h2>
+      <div id="root">
+        <ul >
+          <!-- aqui vamos a traer la data -->
+        </ul>
+      </div>
+    </main>
+    <footer></footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
