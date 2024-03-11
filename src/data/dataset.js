@@ -275,7 +275,7 @@ export default [
     "location": "Limón",
     "shortDescription": "Humedales y bosques tropicales con una rica variedad de vida silvestre.",
     "description": "Hitoy-Cerere es una reserva biológica que protege humedales y bosques tropicales, creando un hábitat ideal para una variada fauna aves multicolores, ranas exóticas y una gran variedad de reptiles que habitan en este refugio natural. Explora senderos naturales, observa aves exóticas y disfruta de la tranquilidad de este entorno natural. Un destino perfecto para amantes de la biodiversidad y la observación de aves.Hitoy-Cerere tambien ofrece la oportunidad de realizar actividades como senderismo y kayak. Déjate llevar por la adrenalina de explorar este paraíso natural. Una experiencia inolvidable para los amantes de la aventura.",
-    "imageUrl": "https://github.com/Maddyrojas/DEV014-Dataverse/blob/main/Imagenes%20Dataverse/19_lugarTuristico.jpg",
+    "imageUrl": "https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/19_lugarTuristico.jpg",
     "tipoTurismo": "turismo de aventura",
     "gastoPromedio": 80,
     "facts": {
