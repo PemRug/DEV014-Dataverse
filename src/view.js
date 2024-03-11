@@ -6,6 +6,7 @@ export const renderItems = (data) => {
     const list= document.createElement('li');
     list.setAttribute('itemscope','');
     list.setAttribute('itemtype',element.name);
+    list.classList.add('cards');
     list.innerHTML=`
     <dl>
     <img src=${element.imageUrl} alt=${element.name}/>
