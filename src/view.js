@@ -9,7 +9,7 @@ export const renderItems = (data) => {
     list.classList.add('cards');
     list.innerHTML=`
     <dl>
-    <img src=${element.imageUrl} alt=${element.name}/>
+    <img src=${element.imageUrl} alt=${element.name} class="imagen-recortada"/>
     <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>
     <dt>Descripción:</dt><dd itemprop="shortDescription">${element.shortDescription}</dd>
     <dt>Ubicación:</dt><dd itemprop="location">${element.location}</dd>
