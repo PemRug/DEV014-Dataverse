@@ -4,10 +4,9 @@ export const example = () => {
   return 'example';
 };
 
-export const filterData = (data,filterBy,value) => {
-  const locationData = document.querySelector("dt[itempromp='location']");
-
-  const filterData = locationData.filter(());
-
-  return [];
+export const filterData = (data,filterProvincia) => {
+  const newData = new Map([...data.entries()].filter(([key,value]) => {
+     return value.location === filterProvincia.value;
+}));
+  return newData;
 };
