@@ -4,6 +4,7 @@ export const example = () => {
   return 'example';
 };
 
-export const anotherExample = () => {
-  return [];
+export const filterData = (data, filterBy, value) => {
+  const newData = data.filter(tour=> tour[filterBy] === value.value);
+  return newData;
 };
