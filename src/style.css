@@ -9,7 +9,12 @@ h1 {
     font-style: normal;
     text-align: center;
   }
-
+h2{
+  font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+}
   body {
     background-color: #fff;
     background-size: cover;
