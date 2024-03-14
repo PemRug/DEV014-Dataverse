@@ -11,23 +11,28 @@
       <p>
         <label for="filtar" >Filtar </label>
         <select class="select" data-testid="select-filter" name="filtrarProvincia" value="location">
-        <option value=""disabled selected>Selecciona una opción</option>
+        <option value="" disabled selected>Selecciona una opción</option>
         <option value="Puntarenas">Puntarenas</option>
         <option value="San José">San José</option>
         <option value="Alajuela">Alajuela</option>
         <option value="Cartago">Cartago</option>
         <option value="Guanacaste">Guanacaste</option>
         <option value="Limón">Limón</option>
-      </select>
-    </p>
-      <p><label for="ordenar">Ordenar </label><select class="select" data-testid="select-sort" name="ordenar" id="ordenar">
-        <option value="asc">A - Z</option>
-        <option value="asc">Z - A</option>
-      </select></p>
-      <p><button data-testid="button-clear">Limpiar</button></p>
+        </select>
+        <button data-testid="button-clear">Limpiar</button>
+      </p>
+      <p>
+        <label for="ordenar">Ordenar por</label>
+        <select class="select" data-testid="select-sort" name="ordenar" id="ordenar">
+          <option value="asc">Nombre</option>
+          <option value="asc">Precio</option>
+        </select>
+        <label><input type="radio" name="sort-order" value="asc" checked/>Ascendente</label>
+        <label><input type="radio" name="sort-order" value="desc"/>Descendente</label>
+      </p>
     </header>
     <main>
-      <h2></h2>
+      <h2>VAMOS A TURISTERA</h2>
       <div id="root">
         <!-- aqui vamos a traer la data -->
       </div>
