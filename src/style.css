@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header.jpg);
+  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -94,6 +94,12 @@ body {
     background-size: auto;
   }
 }
+.filter{
+  
+}
+.order{
+
+}
 
 /* main */
 
@@ -107,8 +113,8 @@ body {
   margin-bottom: 10px;
   border-radius: 5px;
   width: 48%;
-}
 
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -117,8 +123,10 @@ ul {
 }
 
 .imagine-cutted {
+  float: right;
   width: 318px;
   height: 239px;
+  grid-column: 2;
 }
 
 /*footer */
