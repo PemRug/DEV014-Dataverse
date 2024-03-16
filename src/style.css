@@ -40,7 +40,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header.jpg);
+  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -93,6 +93,12 @@ body {
     height: 100vh;
     background-size: auto;
   }
+}
+.filter{
+  
+}
+.order{
+
 }
 
 /* main */
