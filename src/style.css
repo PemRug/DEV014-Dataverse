@@ -147,7 +147,9 @@ ul {
   height: 100%;
   float: right;
   clip-path: polygon(49% 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
 }
+
 
 /*footer */
 
