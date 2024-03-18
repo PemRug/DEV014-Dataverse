@@ -9,16 +9,10 @@ export const renderItems = (data) => {
     list.classList.add('cards');
     list.innerHTML=`
     <dl>
-    <img src=${element.imageUrl} alt=${element.name} class="imagine-cutted"/>
-    <dt>Nombre:</dt><dd itemprop="name">${element.name}</dd>
-    <dt>Descripción:</dt><dd itemprop="shortDescription">${element.shortDescription}</dd>
-    <dt>Ubicación:</dt><dd itemprop="location">${element.location}</dd>
-    <dt>Tipo de Turismo:</dt><dd itemprop="tipoTurismo">${element.tipoTurismo}</dd>
-    <dt>Gasto Promedio:</dt><dd itemprop="gastoPromedio">${element.gastoPromedio}</dd>
-    <dt>Museo cercano:</dt><dd itemprop="facts">${element.facts.museo}</dd>
-    <dt>Tienda cercana:</dt><dd itemprop="facts">${element.facts.compras}</dd>
-    <dt>Restaurante cercana:</dt><dd itemprop="facts">${element.facts.alimentacion}</dd>
-    <dt>Datos Adicionales:</dt><dd itemprop="description">${element.description}</dd>
+    <div class="divImage"><img src=${element.imageUrl} alt=${element.name} class="imagine-cutted"/></div>
+    <div class="divName"><dt></dt><dd itemprop="name">${element.name}</dd></div>
+    <div class="divDescription"><dt>Descripción:</dt><dd itemprop="shortDescription">${element.shortDescription}</dd></div>
+    <div class="divPrecio"><dt>Gasto Promedio:</dt><dd itemprop="gastoPromedio">${element.gastoPromedio}</dd></div>
     </dl>
     `;
 

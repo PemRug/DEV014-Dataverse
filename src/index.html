@@ -4,11 +4,24 @@
     <meta charset="utf-8">
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class= "header">
-      <h1>COSTA RICA TE ENAMORA</h1>
-      <p>
+      <div class="desktop">
+        <h1>Costa Rica te enamora</h1>
+      </div>
+      <div class="tablet">
+        <h1>Costa Rica te enamora</h1>
+      </div>
+      <div class="movil">
+        <h1>Costa Rica te enamora</h1>
+      </div>
+      <div class="filter">
         <label for="filtar" >Filtar </label>
         <select class="select" data-testid="select-filter" name="filtrarProvincia" value="location">
         <option value="" disabled selected>Selecciona una opción</option>
@@ -20,8 +33,8 @@
         <option value="Limón">Limón</option>
         </select>
         <button data-testid="button-clear">Limpiar</button>
-      </p>
-      <p>
+      </div>
+      <div class="order">
         <label for="ordenar">Ordenar por</label>
         <select class="select" data-testid="select-sort" name="ordenar" id="ordenar">
           <option value="asc">Nombre</option>
@@ -29,10 +42,10 @@
         </select>
         <label><input type="radio" name="sort-order" value="asc" checked/>Ascendente</label>
         <label><input type="radio" name="sort-order" value="desc"/>Descendente</label>
-      </p>
+      </div>
     </header>
     <main>
-      <h2>VAMOS A TURISTERA</h2>
+      <h2>VAMOS A TURISTEAR</h2>
       <div id="root">
         <!-- aqui vamos a traer la data -->
       </div>
