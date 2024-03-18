@@ -5,5 +5,5 @@ export const example = () => {
 };
 
 export const filterData = (data, filterBy, value) => {
- return (data.filter(tour=> tour[filterBy] === value));
+  return (data.filter(tour=> tour[filterBy] === value));
 };
