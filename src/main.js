@@ -9,6 +9,6 @@ content.appendChild(renderItems(data));
 
 filterProvincia.addEventListener('change', () => {
   document.querySelector('ul').remove();
-  content.appendChild(renderItems(filterData(data,'location',filterProvincia)));
+  content.appendChild(renderItems(filterData(data,'location',filterProvincia.value)));
 });
     
