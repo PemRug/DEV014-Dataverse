@@ -103,6 +103,7 @@ ul
 li -> cards
 dd 
 */
+
 .divName dd {
   display: flex;
   display: flex-start;
@@ -113,6 +114,7 @@ dd
   height: 100%;
   padding-top: 20px;
 }
+
 .cards {
   display: flex;
   flex-direction: row;
@@ -124,13 +126,15 @@ dd
   height: 7.3%;
   overflow: hidden;
 }
+
 ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
- #root {/*contiene el ul */
+
+#root { /*contiene el ul*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -140,7 +144,9 @@ ul {
   height: 100%;
   float: right;
   clip-path: polygon(49% 0, 100% 0, 100% 100%, 0% 100%);
-  overflow: hidden;
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 
@@ -202,49 +208,4 @@ media
 
 select {
   font-size: 16px;
-}
-
-.divName dd {
-  display: flex;
-  display: flex-start;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  width: 43%;
-  height: 100%;
-  padding-top: 20px;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  margin-inline-end: 10px;
-  border-radius: 5px;
-  width: 48%;
-  height: 7.3%;
-  overflow: hidden;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#root {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.imagine-cutted {
-  width: 50%;
-  height: 100%;
-  float: right;
-  clip-path: polygon(49% 0, 100% 0, 100% 100%, 0% 100%);
-  text-align: left;
-  margin-top: 20px;
-  padding: 10px;
 }
