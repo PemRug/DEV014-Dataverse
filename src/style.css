@@ -1,6 +1,12 @@
+/* 
+text
+tittle
+*/
 * {
   font-family: "Hind Siliguri", sans-serif;
   font-size: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -11,11 +17,11 @@ h1 {
   text-align: center;
   justify-content: center;
   align-items: center;
-  color:#fff;
-  text-shadow: -2px -2px 0 #000,  
-  2px -2px 0 #000,
- -2px  2px 0 #000,
-  2px  2px 0 #000; 
+  color: #fff;
+  text-shadow: -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
   font-family: 'Satisfy';
 }
 
@@ -26,15 +32,8 @@ h2 {
   text-align: left;
 }
 
-body {
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
 /* header*/
-
-.header {
+header {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -44,8 +43,170 @@ body {
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
+  z-index: -1;
+  position: absolute;
 }
 
+/* body*/
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+main
+filter
+order 
+*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 93.5vh;
+  z-index: 1;
+}
+
+.filter {
+  position: relative;
+  /* justify-content: center;
+  display: flex; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* Sombra */
+  max-width: 1000px;
+  min-width: 400px;
+  height: 100px;
+  width: 90%;
+  z-index: 1;
+  /* Coloca este div encima del otro */
+  background-color: #dee3ed;
+  /* Color de fondo */
+  border: 2px solid #dee3ed;
+  /* Borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  padding: 20px;
+  /* Padding interno */
+  margin: 0;
+  /* Margen exterior */
+}
+
+.order {
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  /* Sombra */
+  max-width: 500px;
+  min-width: 30px;
+  height: 50px;
+  width: 90%;
+  z-index: 1;
+  /* Coloca este div encima del otro */
+  background-color: #dee3ed;
+  /* Color de fondo */
+  border: 2px solid #dee3ed;
+  /* Borde */
+  border-radius: 5px;
+  /* Bordes redondeados */
+  padding: 20px;
+  /* Padding interno */
+  margin: 0;
+  /* Margen exterior */
+}
+
+.select {
+  font-size: 16px;
+}
+
+/* 
+div root
+ul
+li -> cards
+dd 
+*/
+
+.divName dd {
+  display: flex;
+  display: flex-start;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  width: 44%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #404040;
+}
+.divStars dt {
+  display: flex;
+  display: flex-start;
+  padding-left: 20px;
+  color: #0791BE;
+}
+.divDescription dd {
+  display: flex;
+  display: flex-start;
+  width: 44%;
+  height: 100%;
+  padding-left: 16px;
+  color: #B5B5B5;
+}
+.divPrecio dt {
+  display: flex;
+  width: 44%;
+  height: 100%;
+  padding-left: 16px;
+  color: #424D58;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 550;
+  font-size: 26px;
+}
+.divPrecio span {
+  display: flex;
+  align-items: end;
+  padding-left: 5px;
+  color: #B5B5B5;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+
+}
+#bntProvincia {
+  float: right;
+  float: inline-end;
+  color: #747474;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#root {
+  /*contiene el ul*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+/*footer */
+.footer {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* 
+queris
+media 
+*/
 @media (max-width: 767px) {
   .desktop {
     display: none
@@ -90,71 +251,25 @@ body {
 
   .desktop {
     display: flex;
-    height: 100vh;
-    background-size: auto;
   }
-}
-.filter{
-  
-}
-.order{
 
-}
+  .imagine-cutted {
+    width: 340px;
+    height: 240px;
+    float: right;
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;
+  }
 
-/* main */
-
-select {
-  font-size: 16px;
-}
-
-.divName dd {
-  display: flex;
-  display: flex-start;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  width: 43%;
-  height: 100%;
-  padding-top: 20px;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  margin-inline-end: 10px;
-  border-radius: 5px;
-  width: 48%;
-  height: 7.3%;
-  overflow: hidden;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#root {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.imagine-cutted {
-  width: 50%;
-  height: 100%;
-  float: right;
-  clip-path: polygon(49% 0, 100% 0, 100% 100%, 0% 100%);
-  overflow: hidden;
-}
-
-
-/*footer */
-
-.footer {
-  text-align: left;
-  margin-top: 20px;
-  padding: 10px;
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 108vh;
+    height: 40vh;
+    overflow: hidden;
+  }
 }
