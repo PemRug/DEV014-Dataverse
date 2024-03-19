@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class= "header">
+    <header>
       <div class="desktop">
         <h1>Costa Rica te enamora</h1>
       </div>
@@ -22,8 +22,8 @@
         <h1>Costa Rica te enamora</h1>
       </div>
       <div class="filter">
-        <label for="filtar" >Filtar </label>
-        <select class="select" data-testid="select-filter" name="filtrarProvincia" value="location">
+        <label for="filter" >Filtar </label>
+        <select id="filter" data-testid="select-filter" name="filtrarProvincia" value="location">
         <option value="" disabled selected>Selecciona una opción</option>
         <option value="Puntarenas">Puntarenas</option>
         <option value="San José">San José</option>
@@ -35,13 +35,13 @@
         <button data-testid="button-clear">Limpiar</button>
       </div>
       <div class="order">
-        <label for="ordenar">Ordenar por</label>
-        <select class="select" data-testid="select-sort" name="ordenar" id="ordenar">
+        <label for="sort">Ordenar por</label>
+        <select id="sort" data-testid="select-sort" name="ordenar">
           <option value="asc">Nombre</option>
           <option value="asc">Precio</option>
         </select>
-        <label><input type="radio" name="sort-order" value="asc" checked/>Ascendente</label>
-        <label><input type="radio" name="sort-order" value="desc"/>Descendente</label>
+        <label for="asc"><input type="radio"  id="asc" name="sort-order" value="asc" checked/>Ascendente</label>
+        <label for="desc"><input type="radio" id="desc" name="sort-order" value="desc"/>Descendente</label>
       </div>
     </header>
     <main>
