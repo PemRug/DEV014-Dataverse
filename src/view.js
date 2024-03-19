@@ -1,6 +1,4 @@
 export const renderItems = (data) => {
-  //console.log(data)
-
   const ul = document.createElement('ul');
   data.forEach(function(element) {
     const list= document.createElement('li');
@@ -15,7 +13,6 @@ export const renderItems = (data) => {
     <div class="divPrecio"><dt>Gasto Promedio:</dt><dd itemprop="gastoPromedio">${element.gastoPromedio}</dd></div>
     </dl>
     `;
-
     ul.appendChild(list);
   });
   return ul;
