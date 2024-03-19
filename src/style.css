@@ -132,22 +132,52 @@ dd
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
-  width: 43%;
+  width: 44%;
   height: 100%;
   padding-top: 20px;
+  padding-left: 20px;
+  color: #404040;
 }
-
-.divDescription dt {
+.divStars dt {
   display: flex;
   display: flex-start;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  width: 43%;
-  height: 100%;
-  padding-top: 20px;
+  padding-left: 20px;
+  color: #0791BE;
 }
+.divDescription dd {
+  display: flex;
+  display: flex-start;
+  width: 44%;
+  height: 100%;
+  padding-left: 16px;
+  color: #B5B5B5;
+}
+.divPrecio dt {
+  display: flex;
+  width: 44%;
+  height: 100%;
+  padding-left: 16px;
+  color: #424D58;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 550;
+  font-size: 26px;
+}
+.divPrecio span {
+  display: flex;
+  align-items: end;
+  padding-left: 5px;
+  color: #B5B5B5;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
 
+}
+#bntProvincia {
+  float: right;
+  float: inline-end;
+  color: #747474;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 ul {
   list-style-type: none;
   display: flex;
@@ -222,6 +252,7 @@ media
   .desktop {
     display: flex;
   }
+
   .imagine-cutted {
     width: 340px;
     height: 240px;
@@ -229,6 +260,7 @@ media
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     overflow: hidden;
   }
+
   .cards {
     display: flex;
     flex-direction: column;
