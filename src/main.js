@@ -1,4 +1,4 @@
-import { filterData , sortData} from './dataFunctions.js';
+import { filterData , sortData, computeStats} from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -23,6 +23,7 @@ filterProvincia.addEventListener('change', () => {
     } else {
       content.appendChild(renderItems(sortData(data,sortOption.value,sortDesc.value)));
     }
+    console.log(computeStats(data));
   } else { // si es por filtro de location
     const dataOriginFilter = filterData(data,'location',filterProvincia.value); // llama el metodo filtrar y lo asigna a dataOriginFilter
     if (sortAsc.checked) {
@@ -30,6 +31,7 @@ filterProvincia.addEventListener('change', () => {
     } else {
       content.appendChild(renderItems(sortData(dataOriginFilter,sortOption.value,sortDesc.value)));
     }
+    console.log(computeStats(dataOriginFilter));
   }
 });
 
