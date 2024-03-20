@@ -23,7 +23,7 @@ filterProvincia.addEventListener('change', () => {
     } else {
       content.appendChild(renderItems(sortData(data,sortOption.value,sortDesc.value)));
     }
-    console.log(computeStats(data));
+    renderComputeStats(data);
   } else { // si es por filtro de location
     const dataOriginFilter = filterData(data,'location',filterProvincia.value); // llama el metodo filtrar y lo asigna a dataOriginFilter
     if (sortAsc.checked) {
@@ -31,7 +31,7 @@ filterProvincia.addEventListener('change', () => {
     } else {
       content.appendChild(renderItems(sortData(dataOriginFilter,sortOption.value,sortDesc.value)));
     }
-    console.log(computeStats(dataOriginFilter));
+    renderComputeStats(dataOriginFilter);
   }
 });
 
@@ -93,3 +93,10 @@ sortDesc.addEventListener('click', () => {
     content.appendChild(renderItems(sortData(dataOriginFilter,sortOption.value,sortDesc.value)));
   }
 });
+
+const renderComputeStats = (data) =>{
+  const arrCompute = computeStats(data);
+  document.querySelector('strong[id="aventura"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo de aventura")).porcentaje).toFixed(2) +"%";
+  document.querySelector('strong[id="playa"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo de playa")).porcentaje).toFixed(2) +"%";
+  document.querySelector('strong[id="cultura"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo cultural")).porcentaje).toFixed(2) +"%";
+}
