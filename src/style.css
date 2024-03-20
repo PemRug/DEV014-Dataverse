@@ -32,100 +32,85 @@ h2 {
   text-align: left;
 }
 
-/* header*/
-header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  overflow: hidden;
-  z-index: -1;
-  position: absolute;
-}
-
 /* body*/
 body {
   background-color: #fff;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* 
-main
-filter
-order 
+top-page
+header
+filter-zone
+sort-zone
 */
-main {
+.top-page{
+  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav{
+  height: 30px;
+  margin: 20px;
+}
+header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 93.5vh;
-  z-index: 1;
 }
-
-.filter {
-  position: relative;
-  /* justify-content: center;
-  display: flex; */
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  /* Sombra */
+.text-welcome{
+  margin: 60px;
+  width: 800px;
+  color: #fff;
+  font-size: 20px;
+}
+.filter-zone{
+  margin: 0 auto;
+  margin-top: -60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 1000px;
-  min-width: 400px;
+  min-width: 300px;
   height: 100px;
   width: 90%;
-  z-index: 1;
-  /* Coloca este div encima del otro */
   background-color: #dee3ed;
-  /* Color de fondo */
   border: 2px solid #dee3ed;
-  /* Borde */
-  border-radius: 5px;
-  /* Bordes redondeados */
-  padding: 20px;
-  /* Padding interno */
-  margin: 0;
-  /* Margen exterior */
-}
-
-.order {
-  position: relative;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  /* Sombra */
+}
+.sort-zone{
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 500px;
   min-width: 30px;
   height: 50px;
   width: 90%;
-  z-index: 1;
-  /* Coloca este div encima del otro */
   background-color: #dee3ed;
-  /* Color de fondo */
   border: 2px solid #dee3ed;
-  /* Borde */
-  border-radius: 5px;
-  /* Bordes redondeados */
-  padding: 20px;
-  /* Padding interno */
-  margin: 0;
-  /* Margen exterior */
 }
-
 .select {
   font-size: 16px;
 }
 
 /* 
+main
 div root
 ul
 li -> cards
 dd 
 */
-
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .divName dd {
   display: flex;
   display: flex-start;
@@ -169,7 +154,6 @@ dd
   color: #B5B5B5;
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 400;
-
 }
 #bntProvincia {
   float: right;
@@ -185,7 +169,6 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 #root {
   /*contiene el ul*/
   display: flex;
@@ -208,49 +191,20 @@ queris
 media 
 */
 @media (max-width: 767px) {
-  .desktop {
-    display: none
-  }
-
-  .tablet {
-    display: none;
-  }
-
-  .movil {
-    display: flex;
+  .top-page{
     height: 40vh;
-    width: 60vh;
-    background-size: auto;
   }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
-  .desktop {
-    display: none;
-  }
-
-  .movil {
-    display: none;
-  }
-
-  .tablet {
-    display: flex;
+  .top-page{
     height: 60vh;
-    background-size: auto;
   }
 }
 
 @media (min-width: 990px) {
-  .movil {
-    display: none;
-  }
-
-  .tablet {
-    display: none;
-  }
-
-  .desktop {
-    display: flex;
+  .top-page{
+    height: 95vh;
   }
 
   .imagine-cutted {
