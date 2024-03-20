@@ -31,6 +31,9 @@ h2 {
   font-style: normal;
   text-align: left;
 }
+button{
+  background-color: firebrick;
+}
 
 /* body*/
 body {
