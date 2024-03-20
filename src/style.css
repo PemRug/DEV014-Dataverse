@@ -30,6 +30,8 @@ h2 {
   font-weight: bold;
   font-style: normal;
   text-align: left;
+  margin: 50px;
+  margin-left: 100px;
 }
 
 /* body*/
@@ -105,12 +107,6 @@ ul
 li -> cards
 dd 
 */
-main{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .divName dd {
   display: flex;
   display: flex-start;
@@ -175,9 +171,27 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-
-
+.text-aventura{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.compute-zone{
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.compute-box { 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 320px;
+  height: 400px;
+  overflow: hidden;
+}
 
 /*footer */
 .footer {
