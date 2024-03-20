@@ -29,27 +29,64 @@
       <option value="Cartago">Cartago</option>
       <option value="Guanacaste">Guanacaste</option>
       <option value="Limón">Limón</option>
-      </select>
-      <button data-testid="button-clear">Limpiar</button>
+    </select>
+    <button data-testid="button-clear">Limpiar</button>
+  </div>
+  <div class="sort-zone">
+    <label for="sort">Ordenar por</label>
+    <select id="sort" data-testid="select-sort" name="ordenar">
+      <option value="name">Nombre</option>
+      <option value="gastoPromedio">Precio</option>
+    </select>
+    <label for="asc"><input type="radio" id="asc" name="sort-order" value="asc" checked />Ascendente</label>
+    <label for="desc"><input type="radio" id="desc" name="sort-order" value="desc" />Descendente</label>
+  </div>
+  <main>
+    <h2>VAMOS A TURISTEAR</h2>
+    <div id="root">
+      <!-- aqui vamos a traer la data -->
     </div>
-    <div class="sort-zone">
-      <label for="sort">Ordenar por</label>
-      <select id="sort" data-testid="select-sort" name="ordenar">
-        <option value="name">Nombre</option>
-        <option value="gastoPromedio">Precio</option>
-      </select>
-      <label for="asc"><input type="radio"  id="asc" name="sort-order" value="asc" checked/>Ascendente</label>
-      <label for="desc"><input type="radio" id="desc" name="sort-order" value="desc"/>Descendente</label>
+    <div class="text-aventura">
+      <a>DESCUBRIR POR ACTIVIDAD</a>
+      <h1>ACTIVIDADES Y AVENTURA</h1>
+      <p>Cuando los años pasen recordarás tu vida y sabrás que tomaste la mejor decisión: viajar a cada rincon de Costa
+        Rica y disfrutar de todas sus actividades y cultura.</p>
     </div>
-    <main>
-      <h2>VAMOS A TURISTEAR</h2>
-      <div id="root">
-        <!-- aqui vamos a traer la data -->
+    <div class="compute-zone">
+      <div class="compute-box">
+        <img
+          src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/01-icon-aventura.png"
+          alt="01-icon-aventura" 
+          id="iconAventura" 
+          class="img-icon"/>
+        <label>Aventura</label>
+        <dt class="compute-element"><strong>60% </strong>Destinos</dt>
       </div>
-    </main>
-    <footer class="footer">
-      <p>Autores: Maddy y Pao</p>
-    </footer>
-    <script src="main.js" type="module"></script>
-  </body>
+    
+      <div class="compute-box">
+        <img
+          src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/02-icon-cultura.png"
+          alt="02-icon-cultura" 
+          id="iconCultura"
+          class="img-icon"/>
+        <label>Cultura</label>
+        <dt class="compute-element"><strong>60% </strong>Destinos</dt>
+      </div>
+      <div class="compute-box">
+        <img
+          src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/03-icon-playa.png"
+          alt="03-icon-playa" 
+          id="iconPlaya"
+          class="img-icon"/>
+        <label>Playa</label>
+        <dt class="compute-element"><strong>60% </strong>Destinos</dt>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>Autores: Maddy y Pao</p>
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
