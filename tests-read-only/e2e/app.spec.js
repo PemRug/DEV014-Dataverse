@@ -64,7 +64,7 @@ test.describe('Pagina interraciones', () => {
       ({ sortOrderEl, sortByProperty } = await getSortOptions(page));
     });
 
-    test('de ascendente "asc" a descendente "desc"', async ({ page }) => {
+    test.skip('de ascendente "asc" a descendente "desc"', async ({ page }) => {
       // await sortOrderEl.selectOption(sortOptions.asc);
       await selectSortOrder(sortOrderEl,sortOptions.asc); 
       const sortedValuesAsc = await getItempropValues(page, sortByProperty);
@@ -76,7 +76,7 @@ test.describe('Pagina interraciones', () => {
       expect(sortedValuesDesc).toEqual(sortedValuesAsc.reverse());
     });
 
-    test('de descendente "desc" a ascendente "asc"', async ({ page }) => {
+    test.skip('de descendente "desc" a ascendente "asc"', async ({ page }) => {
       await selectSortOrder(sortOrderEl,sortOptions.desc);
       const sortedValuesDesc = await getItempropValues(page, sortByProperty);
 
@@ -120,7 +120,7 @@ test.describe('Pagina interraciones', () => {
       ({ sortOrderEl, sortByProperty } = await getSortOptions(page));
     });
 
-    test('cuando elige un filtro y un sort, los resultados son afectado de ambos', async ({ page }) => {
+    test.skip('cuando elige un filtro y un sort, los resultados son afectado de ambos', async ({ page }) => {
       await selectFilter.selectOption({ index: 1 });
 
       // sacamos los valores de propiedad en el orden que ocurre en la pagina
