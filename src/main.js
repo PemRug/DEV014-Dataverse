@@ -9,16 +9,16 @@ const sortOption = document.querySelector('select[name="ordenar"]');
 const sortAsc = document.querySelector('input[value="asc"]');
 const sortDesc = document.querySelector('input[value="desc"]');
 const btnLimpiar = document.querySelector('button[data-testid="button-clear"]');
-
+const btnHeader = document.querySelector('button[name="btn-header"]');
+const filterZone = document.querySelector('div[name="filter-zone"]');
 content.appendChild(renderItems(sortData(data,sortOption.value,sortAsc.value)));
-
 /*
 Evento Filtrar por provincia
 Escucha los cambios en el select de filtrarProvincia
 tambien conserva la condicion del evento ordenar
 */
 filterProvincia.addEventListener('change', () => {
-  document.querySelector('ul').remove();
+  document.querySelector('ul[name="ul-root"]').remove();
   if (filterProvincia.value==='All Options') { // Si es todas las opciones
     newData = data;
     if (sortAsc.checked) {
@@ -44,7 +44,7 @@ Primero verifica la seleccion del radio (si es ascendente o descendente)
 Segundo verifica si la data esta filtrada por location o si la seleccion es de todas las opciones
 */
 sortOption.addEventListener('change', () => {
-  document.querySelector('ul').remove();
+  document.querySelector('ul[name="ul-root"]').remove();
   if (sortAsc.checked) {
     content.appendChild(renderItems(sortData(newData,sortOption.value,sortAsc.value)));
   }
@@ -59,7 +59,7 @@ Verifica si son todas las opciones o si esta filtrada por location
 Y finalmente muestra una data ordenada de forma ascendente
 */
 sortAsc.addEventListener('click', (event) => {
-  document.querySelector('ul').remove();
+  document.querySelector('ul[name="ul-root"]').remove();
   content.appendChild(renderItems(sortData(newData,sortOption.value,event.target.value)));
 });
 
@@ -69,12 +69,12 @@ Verifica si son todas las opciones o si esta filtrada por location
 Y finalmente muestra una data ordenada de forma descendente
 */
 sortDesc.addEventListener('click', (event) => {
-  document.querySelector('ul').remove();
+  document.querySelector('ul[name="ul-root"]').remove();
   content.appendChild(renderItems(sortData(newData,sortOption.value,event.target.value)));
 });
 
 btnLimpiar.addEventListener('click', () => {
-  document.querySelector('ul').remove();
+  document.querySelector('ul[name="ul-root"]').remove();
   filterProvincia.selectedIndex = 0;
   sortOption.selectedIndex = 0;
   sortAsc.checked = true;
@@ -87,3 +87,7 @@ const renderComputeStats = (data) =>{
   document.querySelector('strong[id="playa"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo de playa")).porcentaje).toFixed(2) +"%";
   document.querySelector('strong[id="cultura"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo cultural")).porcentaje).toFixed(2) +"%";
 }
+
+btnHeader.addEventListener('click', () => {
+  filterZone.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});

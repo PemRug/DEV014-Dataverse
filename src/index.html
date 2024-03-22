@@ -13,34 +13,48 @@
   <body>
     <div class="top-page">
       <header>
-        <nav></nav>
+        <div class="nav-zone">
+          <span class="tx-nav">(+506) 2637 0000 _____ info@crtour.com</span>
+          <nav>
+            <ul>
+              <li><a href="">INICIO</a></li>
+              <li><a href="">TOURS</a></li>
+              <li><a href="">DETALLES</a></li>
+              <li><a href="">ACTIVIDADES</a></li>
+              <li><a href="">ZONAS TURISTICAS</a></li>
+            </ul>
+          </nav>
+          <input type="search" name="search-header" id="search-header" placeholder="¿Qué lugar estas buscando?">
+        </div>
         <h1>Costa Rica te enamora</h1>
-        <b class="text-welcome">Conocé los mejores rincones de nuestro país, descrubriendo todas las actividades que Costa Rica nos ofrece para hacer y disfrutar.</b>
-        <button class="btn-header">SABER MÁS</button>
+        <em class="text-welcome">Conocé los mejores rincones de nuestro país, descrubriendo todas las actividades que Costa Rica nos ofrece para hacer y disfrutar.</em>
+        <button class="btn-header" name="btn-header">SABER MÁS</button>
       </header>
     </div>
-    <div class="filter-zone">
-      <label for="filter" >Filtar </label>
-      <select id="filter" data-testid="select-filter" name="filtrarProvincia" value="location">
-      <option value="All Options">Todas las opciones</option>
-      <option value="Puntarenas">Puntarenas</option>
-      <option value="San José">San José</option>
-      <option value="Alajuela">Alajuela</option>
-      <option value="Cartago">Cartago</option>
-      <option value="Guanacaste">Guanacaste</option>
-      <option value="Limón">Limón</option>
-    </select>
-    <button data-testid="button-clear">Limpiar</button>
-  </div>
-  <div class="sort-zone">
-    <label for="sort">Ordenar por</label>
-    <select id="sort" data-testid="select-sort" name="ordenar">
-      <option value="name">Nombre</option>
-      <option value="gastoPromedio">Precio</option>
+    <div class="filter-zone" name="filter-zone">
+      <div class="where-filter">
+        <label for="filter" >¿Donde ir? </label>
+        <select class="select-filter" id="filter" data-testid="select-filter" name="filtrarProvincia" value="location">
+          <option value="All Options">Todas las opciones</option>
+          <option value="Puntarenas">Puntarenas</option>
+          <option value="San José">San José</option>
+          <option value="Alajuela">Alajuela</option>
+          <option value="Cartago">Cartago</option>
+          <option value="Guanacaste">Guanacaste</option>
+          <option value="Limón">Limón</option>
+        </select>
+      </div>
+      <button class="button-clear" data-testid="button-clear">Limpiar</button>
+    </div>
+    <div class="sort-zone" name="sort-zone">
+      <label for="sort">Ordenar por</label>
+      <select id="sort" data-testid="select-sort" name="ordenar">
+        <option value="name">Nombre</option>
+        <option value="gastoPromedio">Precio</option>
+      </select>
       <label for="asc"><input type="radio" id="asc" name="sort-order" value="asc" checked />Ascendente</label>
-      <label for="desc"><input type="radio" id="desc" name="sort-order" value="desc" />Descendente</label>
-    </select>
-  </div>
+     <label for="desc"><input type="radio" id="desc" name="sort-order" value="desc" />Descendente</label>
+    </div>
   <main>
     <h2>VAMOS A TURISTEAR</h2>
     <div id="root">
@@ -60,7 +74,7 @@
           id="iconAventura" 
           class="img-icon"/>
         <label>Aventura</label>
-        <dt class="compute-element"><strong id="aventura">60%</strong> Destinos</dt>
+        <dt class="compute-element"><strong id="aventura">70.83%</strong> Destinos</dt>
       </div>
     
       <div class="compute-box">
@@ -70,7 +84,7 @@
           id="iconCultura"
           class="img-icon"/>
         <label>Cultura</label>
-        <dt class="compute-element"><strong id="cultura">60%</strong> Destinos</dt>
+        <dt class="compute-element"><strong id="cultura">4.17%</strong> Destinos</dt>
       </div>
       <div class="compute-box">
         <img
@@ -79,12 +93,17 @@
           id="iconPlaya"
           class="img-icon"/>
         <label>Playa</label>
-        <dt class="compute-element"><strong id="playa">60%</strong> Destinos</dt>
+        <dt class="compute-element"><strong id="playa">25.00%</strong> Destinos</dt>
       </div>
     </div>
   </main>
-  <footer class="footer">
-    <p>Autores: Maddy y Pao</p>
+  <footer>
+    <div class="foot">
+      <p class="foot1">Privacy Policy</p>
+      <p class="foot1">Term & Condition</p>
+      <p class="foot1">FAQ</p>
+      <p class="foot2">Copyright © 2024 MaddyPao. All rights reserveds</p>
+    </div>
   </footer>
   <script src="main.js" type="module"></script>
 </body>
