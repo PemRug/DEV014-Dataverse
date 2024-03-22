@@ -1,5 +1,6 @@
 export const renderItems = (data) => {
   const ul = document.createElement('ul');
+  ul.setAttribute('name','ul-root');
   data.forEach(function(element) {
     const list= document.createElement('li');
     list.setAttribute('itemscope','');
