@@ -9,7 +9,7 @@ export const renderItems = (data) => {
     <dl>
     <div class="divImage"><img src=${element.imageUrl} alt=${element.name} class="imagine-cutted"/></div>
     <div class="divName"><dd itemprop="name">${element.name}</dd></div>
-    <div class="divStars"><dt>iconos de estrellas</dt></div>
+    <div class="divStars"> <img src="icono1.png" alt="Icono 1">  <img src="icono1.png" alt="Icono 1">  <img src="icono1.png" alt="Icono 1">  <img src="icono1.png" alt="Icono 1"></div>
     <div class="divPrecio"><dt itemprop="gastoPromedio">$${element.gastoPromedio}<span>gasto promedio diario</span></dt></div>
     <div class="divDescription"><dt></dt><dd itemprop="shortDescription">${element.shortDescription}</dd></div>
     <button type="button" id="bntProvincia">${element.location}</button>

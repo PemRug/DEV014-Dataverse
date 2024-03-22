@@ -33,7 +33,8 @@ h2 {
   margin: 50px;
   margin-left: 100px;
 }
-button{
+
+button {
   background-color: #F56960;
 }
 
@@ -50,30 +51,34 @@ header
 filter-zone
 sort-zone
 */
-.top-page{
+.top-page {
   background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-nav{
+
+nav {
   height: 30px;
   margin: 20px;
 }
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.text-welcome{
+
+.text-welcome {
   margin: 60px;
   width: 800px;
   color: #fff;
   font-size: 20px;
 }
-.filter-zone{
+
+.filter-zone {
   margin: 0 auto;
   margin-top: -60px;
   display: flex;
@@ -87,7 +92,8 @@ header {
   border: 2px solid #dee3ed;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.sort-zone{
+
+.sort-zone {
   margin: 40px auto;
   display: flex;
   justify-content: center;
@@ -99,6 +105,7 @@ header {
   background-color: #dee3ed;
   border: 2px solid #dee3ed;
 }
+
 .select {
   font-size: 16px;
 }
@@ -115,48 +122,46 @@ dd
   flex-direction: column;
   justify-content: space-evenly;
   border: 1px solid #ccc;
-  margin-bottom: 10px;
   border-radius: 5px;
-  width: 108vh;
-  height: 40vh;
   overflow: hidden;
 }
+
 .divName dd {
   display: flex;
-  display: flex-start;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 20px;
   width: 44%;
-  height: 100%;
+  height: 10vh;
   padding-top: 20px;
   padding-left: 20px;
   color: #404040;
 }
+
 .divStars dt {
   display: flex;
   display: flex-start;
   padding-left: 20px;
   color: #0791BE;
 }
+
 .divDescription dd {
   display: flex;
   display: flex-start;
-  width: 44%;
-  height: 100%;
-  padding-left: 16px;
   color: #B5B5B5;
 }
+
 .divPrecio dt {
   display: flex;
   width: 44%;
-  height: 100%;
+  height: 5vh;
   padding-left: 16px;
   color: #424D58;
   font-family: "Monserrat", sans-serif;
   font-weight: 550;
   font-size: 26px;
 }
+
 .divPrecio span {
   display: flex;
   align-items: end;
@@ -165,13 +170,16 @@ dd
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 400;
 }
+
 #bntProvincia {
   float: right;
   float: inline-end;
-  color: #747474;
+  color: #fff;
   font-weight: 600;
   text-transform: uppercase;
+  border: #F56960;
 }
+
 ul {
   list-style-type: none;
   display: flex;
@@ -179,26 +187,30 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 #root {
   /*contiene el ul*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.text-aventura{
+
+.text-aventura {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 40px;
 }
-.compute-zone{
+
+.compute-zone {
   margin: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.compute-box { 
+
+.compute-box {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -219,19 +231,19 @@ queris
 media 
 */
 @media (max-width: 767px) {
-  .top-page{
+  .top-page {
     height: 40vh;
   }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
-  .top-page{
+  .top-page {
     height: 60vh;
   }
 }
 
 @media (min-width: 990px) {
-  .top-page{
+  .top-page {
     height: 95vh;
   }
 
@@ -242,16 +254,23 @@ media
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     overflow: hidden;
   }
+
   .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 1px solid #ccc;
     margin-bottom: 10px;
-    border-radius: 5px;
     width: 108vh;
     height: 40vh;
-    overflow: hidden;
   }
 
+  .divDescription dd {
+    width: 44%;
+    height: 10.4vh;
+    padding-left: 16px;
+  }
+  #bntProvincia {
+    height: 7vh;
+    width: 24vh;
+    margin-right: -28px;
+    text-align: left;
+    padding-left: 3vh;
+  }
 }
