@@ -346,7 +346,7 @@ media
 @media (max-width: 767px) {/*phone*/
   .top-page {
     height: 55vh;
-    background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-phone.jpg);
+    background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-tablet.jpg);
     background-position: initial;
     background-size: contain;
   }
