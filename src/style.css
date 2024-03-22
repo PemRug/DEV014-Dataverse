@@ -39,6 +39,7 @@ filter-zone
 sort-zone
 */
 .top-page {
+  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,6 +347,9 @@ media
   .top-page {
     height: 55vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-phone.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   a{
     font-size: 16px;
@@ -460,6 +464,10 @@ media
   .top-page {
     height: 75vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-tablet.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+
   }
   .nav-zone{
     height: 10vh;
@@ -540,7 +548,6 @@ media
 
 @media (min-width: 1000px) {/*laptop*/
   .top-page {
-    background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header.jpg);
     height: 100vh;
   }
 
