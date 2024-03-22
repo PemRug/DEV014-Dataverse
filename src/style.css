@@ -259,12 +259,13 @@ media
   .imagine-cutted {
     width: 64vh;
     height: 37vh;
-    border-radius: 5px;
+    border-radius: 28px;
+    padding: 4vh;
   }
 
   .card {
     width: 74vh;
-    height: 71vh;
+    height: 79vh;
     flex-direction: row;
     margin-left: 2vh;
     margin-bottom: 2vh;
@@ -272,7 +273,7 @@ media
   }
 
   .divDescription dd {
-    width: 100%;
+    width: 90%;
     height: 6.6vh;
     padding-left: 18px;
     padding-top: 1vh;
@@ -283,7 +284,7 @@ media
     width: 28vh;
     text-align: right;
     padding-left: 9vh;
-    transform: translateY(-203px) translateX(-5px);
+    transform: translateY(-227px) translateX(-23px);
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     border-bottom-right-radius: 5px;
   }
