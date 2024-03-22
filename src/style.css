@@ -136,11 +136,11 @@ dd
   padding-top: 20px;
   padding-left: 20px;
   color: #404040;
+  align-items: center;
 }
 
-.divStars dt {
-  display: flex;
-  display: flex-start;
+.divStars {
+  margin-top: 1vh;
   padding-left: 20px;
   color: #0791BE;
 }
@@ -172,12 +172,22 @@ dd
 }
 
 #bntProvincia {
+  display: flex;
   float: right;
   float: inline-end;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
   border: #F56960;
+  align-items: center;
+}
+
+#bntReadMore {
+  color: #A9B5C1;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: #fff;
+  background-color: #fff;
 }
 
 ul {
@@ -234,22 +244,127 @@ media
   .top-page {
     height: 40vh;
   }
+
+  h2 {
+    margin: 20px;
+    margin-left: 80px;
+  }
+
+  .divName dd {
+    width: 100%;
+    height: 4vh;
+    padding-left: 20px;
+  }
+
+  .imagine-cutted {
+    width: 64vh;
+    height: 37vh;
+    border-radius: 5px;
+  }
+
+  .card {
+    width: 74vh;
+    height: 71vh;
+    flex-direction: row;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+  }
+
+  .divDescription dd {
+    width: 100%;
+    height: 6.6vh;
+    padding-left: 18px;
+    padding-top: 1vh;
+  }
+
+  #bntProvincia {
+    height: 7vh;
+    width: 28vh;
+    text-align: right;
+    padding-left: 9vh;
+    transform: translateY(-203px) translateX(-5px);
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+    border-bottom-right-radius: 5px;
+  }
+
+  #bntReadMore {
+    height: 5vh;
+    width: 24vh;
+    text-align: center;
+    transform: translateX(126px);
+  }
+
+  .divPrecio dt {
+    align-items: center;
+    width: 100%;
+    height: 5.3vh;
+    padding-left: 18px;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
   .top-page {
     height: 60vh;
   }
+
+  .divName dd {
+    width: 44%;
+    height: 7vh;
+    padding-left: 20px;
+  }
+
+  .imagine-cutted {
+    width: 57vh;
+    height: 39vh;
+    float: right;
+    clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;
+  }
+
+  .card {
+    margin-bottom: 10px;
+    width: 108vh;
+    height: 39vh;
+  }
+
+  .divDescription dd {
+    width: 44%;
+    height: 10.8vh;
+    padding-left: 16px;
+  }
+
+  #bntProvincia {
+    height: 7vh;
+    width: 26vh;
+    margin-right: -24px;
+    text-align: left;
+    padding-left: 4vh;
+  }
+
+  #bntReadMore {
+    height: 7vh;
+    width: 26vh;
+    padding-left: 3vh;
+    text-align: center;
+  }
+
+  .divPrecio dt {
+    align-items: center;
+    width: 44%;
+    height: 5.3vh;
+    padding-left: 16px;
+  }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 991px) {
   .top-page {
     height: 95vh;
   }
 
   .imagine-cutted {
-    width: 340px;
-    height: 240px;
+    width: 54vh;
+    height: 40vh;
     float: right;
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     overflow: hidden;
@@ -263,14 +378,21 @@ media
 
   .divDescription dd {
     width: 44%;
-    height: 10.4vh;
+    height: 9.2vh;
     padding-left: 16px;
   }
+
   #bntProvincia {
     height: 7vh;
     width: 24vh;
     margin-right: -28px;
     text-align: left;
-    padding-left: 3vh;
+    padding-left: 2vh;
+  }
+
+  #bntReadMore {
+    padding-left: 10vh;
+    text-align: center;
+    padding-top: 1vh;
   }
 }
