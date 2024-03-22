@@ -8,25 +8,6 @@ tittle
   padding: 0;
   margin: 0;
 }
-
-h1 {
-  margin-top: 40px;
-  margin-bottom: 0px;
-  display: flex;
-  font-size: 120px;
-  font-weight: normal;
-  font-style: normal;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-shadow: -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;
-  font-family: 'Satisfy';
-}
-
 h2 {
   font-size: 25px;
   font-weight: bold;
@@ -39,8 +20,7 @@ a{
   text-decoration: none;
   color: white;
   margin: 20px;
-}
-    
+} 
 button{
   background-color: #F56960;
 }
@@ -59,20 +39,27 @@ filter-zone
 sort-zone
 */
 .top-page {
-  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/css/Imagenes%20Dataverse/headerLaptop.jpg);
+  background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.nav-zone{
-  margin-top: 0px;
-  width: 100%;
-  height: 110px;
+header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.nav-zone{
+  margin-top: 0px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
   background-color: rgba(83, 8, 3, 0.25);
 }
 .tx-nav{
@@ -82,30 +69,38 @@ sort-zone
   top: 20px;
 }
 #search-header{
-  margin: 20px;
+  margin: 0px 60px;
   border-radius: 5px;
-  width: 250px;
-  height: 28px;
-  text-align: center;
+  width: 25%;
+  height: 40px;
+  text-align: center; /*El texto interno del cuadro search se alinea*/
 }
-
-header {
+h1 {
+  margin-top: 25px;
+  margin-bottom: 0px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-size: 90px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  text-shadow: -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+  font-family: 'Satisfy';
 }
 .text-welcome{
-  margin-top: 5px;
+  margin-top: 0px;
   text-align: center;
-  width: 900px;
+  max-width: 610px;
+  width: 60%;
   color: #fff;
-  font-size: 20px;
+  font-size: 17px;
 }
 .btn-header{
-  margin-top: 80px;
+  margin-top: 40px;
   width: 100px;
-  height: 40px;
+  height: 35px;
   color: white;
   border-radius: 5px;
   border: 5px #F56960;
@@ -117,7 +112,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 150px;
-  width: 80%;
+  width: 90%;
   background-color: #dee3ed;
   border: 2px solid #dee3ed;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -127,18 +122,8 @@ header {
 .where-filter{
   display: flex;
   flex-direction: column;
-}
-
-.sort-zone {
-  margin: 40px auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
-  width: 500px;
-  background-color: #dee3ed;
-  border: 2px solid #dee3ed;
+  max-width: 280px;;
+  width: 40%;
 }
 .select-filter {
   margin: 7px;
@@ -147,21 +132,33 @@ header {
   background-color: rgba(7, 145, 190, 0.35);
   padding: 5px; 
   border: 1px solid #ccc;
-  width: 250px;
+  width: 100%;
   height: 60px;
   font-size: 20px;
 }
 .button-clear{
   margin-top: 24px;
   margin-left: 40px;
-  width: 250px;
+  max-width: 250px;;
+  width: 30%;
   height: 60px;
   color: white;
   border-radius: 5px;
   border: 5px #F56960;
   font-size: 20px;
 }
-
+.sort-zone {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  max-width: 500px;
+  width: 98%;
+  background-color: #dee3ed;
+  border: 2px solid #dee3ed;
+}
 /* 
 main
 div root
@@ -291,6 +288,34 @@ footer {
   height: 500px;
   background-color: #383838;
 }
+.zone-infoot{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+}
+.infoot{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 30vh;
+  color: white;
+}
+hr{
+  border: none;
+  height: 2px;
+  background-color: rgba(135, 135, 135, 0.3);
+  margin-top: 5px;
+}
+.btn-subcrip{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  border: 5px #F56960;
+  font-size: 20px;
+}
 .foot{
   position: absolute;
   background-color: #404040;
@@ -304,25 +329,45 @@ footer {
 }
 .foot1{
   color: white;
-  font-size: 25px;
-  margin-left: 60px;
+  font-size: 20px;
+  margin-left: 5%;
 
 }
 .foot2{
   position: absolute;
   right: 60px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 /* 
 queris
 media 
 */
-@media (max-width: 767px) {
+@media (max-width: 767px) {/*phone*/
   .top-page {
-    height: 40vh;
+    height: 55vh;
+    background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/headerPhone.jpg);
   }
-
+  a{
+    font-size: 16px;
+    margin: 8px;
+  }
+  .filter-zone{
+    height: 10vh;
+    margin-top: -30px;
+    width: 98%;
+  }
+  .select-filter, .button-clear{
+    font-size: 16px;
+    height: 6vh;
+  }
+  .nav-zone{
+    height: 6vh;
+    justify-content: center;
+  }
+  h1{
+    font-size: 50px;
+  }
   h2 {
     margin: 20px;
     margin-left: 80px;
@@ -380,13 +425,53 @@ media
     height: 5.3vh;
     padding-left: 18px;
   }
-}
-
-@media (min-width: 767px) and (max-width: 990px) {
-  .top-page {
-    height: 60vh;
+  footer {
+    height: 25vh;
+  }
+  #infoot3{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translateX(-30%); /* El left mueve una 35 y el transform reduce de la midad de lo que se movio par centrar */
+    right: auto;
+  }
+  .btn-subcrip{
+    width: 250px;
+    height: 40px;
+    margin-top: 8px;
+  }
+  .foot{
+    height: 50px;
+  }
+  .tx-nav, #search-header, .btn-header, #infoot1, #infoot2, .foot1{
+    display: none;
+  }
+  .foot2{
+    font-size: 15px;
+    position: absolute;
+    left: 35%;
+    transform: translateX(-25%); /* El left mueve una 35 y el transform reduce de la midad de lo que se movio par centrar */
+    right: 0%;
   }
 
+}
+
+@media (min-width: 767px) and (max-width: 1000px) { /*tablet*/
+  .top-page {
+    height: 75vh;
+    background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/headerPhone.jpg);
+  }
+  .nav-zone{
+    height: 10vh;
+    justify-content: center;
+  }
+  h1{
+    font-size: 70px;
+  }
+  .filter-zone{
+    height: 15vh;
+  }
   .divName dd {
     width: 44%;
     height: 7vh;
@@ -434,11 +519,29 @@ media
     height: 5.3vh;
     padding-left: 16px;
   }
+  footer {
+    height: 35vh;
+  }
+  .zone-infoot{
+    padding-left: 10%;
+  }
+  .infoot{
+    width: 30%;
+  }
+  .tx-nav,#search-header, .btn-header, #infoot2{
+    display: none;
+  }
+  .foot{
+    height: 80px;
+  }
+  .foot1, .foot2{
+    font-size: 15px;
+  }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1000px) {/*laptop*/
   .top-page {
-    height: 95vh;
+    height: 100vh;
   }
 
   .imagine-cutted {
@@ -473,5 +576,11 @@ media
     padding-left: 10vh;
     text-align: center;
     padding-top: 1vh;
+  }
+  footer {
+    height: 50vh;
+  }
+  .foot{
+    height: 100px;
   }
 }

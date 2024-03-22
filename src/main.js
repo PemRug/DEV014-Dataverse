@@ -91,3 +91,7 @@ const renderComputeStats = (data) =>{
 btnHeader.addEventListener('click', () => {
   filterZone.scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
+
+document.querySelector('button[name="btn-subcrip"]').addEventListener('click', () => {
+  filterZone.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
