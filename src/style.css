@@ -348,7 +348,6 @@ media
     height: 55vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-phone.jpg);
     background-position: initial;
-    background-repeat: no-repeat;
     background-size: contain;
   }
   a{
@@ -465,7 +464,6 @@ media
     height: 75vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/header-tablet.jpg);
     background-position: initial;
-    background-repeat: no-repeat;
     background-size: contain;
 
   }
