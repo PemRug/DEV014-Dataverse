@@ -110,6 +110,17 @@ ul
 li -> cards
 dd 
 */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 108vh;
+  height: 40vh;
+  overflow: hidden;
+}
 .divName dd {
   display: flex;
   display: flex-start;
@@ -231,8 +242,7 @@ media
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     overflow: hidden;
   }
-
-  .cards {
+  .card {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -243,4 +253,5 @@ media
     height: 40vh;
     overflow: hidden;
   }
+
 }
