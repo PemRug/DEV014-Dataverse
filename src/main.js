@@ -3,6 +3,7 @@ import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
 let newData = data;
+const dataset =data;
 const content = document.getElementById('root');
 const filterProvincia = document.querySelector('select[name="filtrarProvincia"]');
 const sortOption = document.querySelector('select[name="ordenar"]');
@@ -79,6 +80,9 @@ btnLimpiar.addEventListener('click', () => {
   sortOption.selectedIndex = 0;
   sortAsc.checked = true;
   content.appendChild(renderItems(sortData(data,sortOption.value,sortAsc.value)));
+  document.querySelector('strong[id="aventura"]').innerHTML= "70.83%";
+  document.querySelector('strong[id="cultura"]').innerHTML= "4.17%";
+  document.querySelector('strong[id="playa"]').innerHTML= "25.00%";
 });
 
 const renderComputeStats = (data) =>{

@@ -194,6 +194,7 @@ dd
   display: flex;
   display: flex-start;
   color: #B5B5B5;
+  width: 50%;
 }
 .divPrecio dt {
   display: flex;
@@ -391,16 +392,14 @@ query
     padding-left: 20px;
   }
   .imagine-cutted {
-    width: 86%;
-    height: 37vh;
-    border-radius: 28px;
-    padding: 4vh;
+    margin: 20px;
+    margin-right: 20px;
+    width: 90%;
+    height: auto;
   }
   .card {
     width: 84%;
-    height: 79vh;
-    flex-direction: row;
-    margin-left: 2vh;
+    height: auto;
     margin-bottom: 2vh;
     padding-top: 2vh;
   }
@@ -411,13 +410,13 @@ query
     padding-top: 1vh;
   }
   #bntProvincia {
-    height: 7vh;
-    width: 28vh;
-    text-align: right;
-    padding-left: 9vh;
-    transform: translateY(-312px) translateX(-34px);
+    height: 5.5vh;
+    width: 40%;
+    padding-left: 15%;
+    transform: translateY(-605%) translateX(-10.5%);
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     border-bottom-right-radius: 5px;
+    font-size: 16px;
   }
   #bntReadMore {
     height: 5vh;
@@ -508,16 +507,16 @@ query
     padding-left: 20px;
   }
   .imagine-cutted {
-    width: 57vh;
+    width: 45vh;
     height: 39vh;
     float: right;
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
-    overflow: hidden;
   }
   .card {
     margin: 10px;
-    width: 103vh;
+    width: 90%;
     height: 39vh;
+    overflow: hidden;
   }
   .divDescription dd {
     width: 42%;
@@ -525,7 +524,7 @@ query
     padding-left: 16px;
   }
   #bntProvincia {
-    height: 7vh;
+    height: 5.6vh;
     width: 23vh;
     margin-right: -34px;
     text-align: left;
@@ -581,7 +580,7 @@ query
 }
 @media (min-width: 1000px) {/*laptop*/
   .imagine-cutted {
-    width: 40vh;
+    width: 45vh;
     height: 40vh;
     float: right;
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
@@ -590,6 +589,7 @@ query
     margin-bottom: 10px;
     width: 48%;
     height: 40vh;
+    min-width: 650px;
   }
   .divDescription dd {
     width: 44%;
