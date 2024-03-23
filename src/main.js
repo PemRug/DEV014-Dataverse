@@ -3,7 +3,6 @@ import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
 let newData = data;
-const dataset =data;
 const content = document.getElementById('root');
 const filterProvincia = document.querySelector('select[name="filtrarProvincia"]');
 const sortOption = document.querySelector('select[name="ordenar"]');
