@@ -355,7 +355,7 @@ hr{
 media 
 query
 */
-@media (max-width: 767px) { /*phone*/
+@media (max-width: 785px) { /*phone*/
   .top-page {
     height: 55vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/phone.jpg);
@@ -396,6 +396,7 @@ query
     margin-right: 20px;
     width: 90%;
     height: auto;
+    border-radius: 1vh;
   }
   .card {
     width: 84%;
@@ -413,7 +414,7 @@ query
     height: 5.5vh;
     width: 40%;
     padding-left: 15%;
-    transform: translateY(-605%) translateX(-10.5%);
+    transform: translateY(-576%) translateX(-16.5%);
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     border-bottom-right-radius: 5px;
     font-size: 16px;
@@ -484,7 +485,7 @@ query
     font-size: 19px;
   }
 }
-@media (min-width: 767px) and (max-width: 1000px) { /*tablet*/
+@media (min-width: 785px) and (max-width: 1000px) { /*tablet*/
   .top-page {
     height: 75vh;
     background-image: url(https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/Imagenes%20Dataverse/tablet.jpg);
@@ -514,13 +515,14 @@ query
   }
   .card {
     margin: 10px;
+    min-width:785px;
     width: 90%;
     height: 39vh;
     overflow: hidden;
   }
   .divDescription dd {
     width: 42%;
-    height: 13.8vh;
+    height: 14.85vh;
     padding-left: 16px;
   }
   #bntProvincia {
@@ -589,11 +591,11 @@ query
     margin-bottom: 10px;
     width: 48%;
     height: 40vh;
-    min-width: 650px;
+    min-width: 770px;
   }
   .divDescription dd {
     width: 44%;
-    height: 12.2vh;
+    height: 13.3vh;
     padding-left: 16px;
   }
   #bntProvincia {
