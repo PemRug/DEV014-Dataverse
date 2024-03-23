@@ -247,14 +247,12 @@ ul {
   align-items: center;
   margin: 40px;
 }
-
 .compute-zone {
   margin: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-
 .compute-box {
   display: flex;
   flex-direction: column;
@@ -267,11 +265,9 @@ ul {
   border-radius: 1vh;
   justify-content: center;
 }
-
 .compute-box label{
   margin-top: 1vh;
 }
-
 .compute-box dt {
   color: #F56960;
 }
@@ -351,10 +347,7 @@ hr{
   font-size: 20px;
 }
 
-/* 
-media 
-query
-*/
+/* media query*/
 @media (max-width: 785px) { /*phone*/
   .top-page {
     height: 55vh;
@@ -396,6 +389,7 @@ query
     margin-right: 20px;
     width: 90%;
     height: auto;
+    border-radius: 1vh;
   }
   .card {
     width: 84%;
@@ -413,7 +407,7 @@ query
     height: 5.5vh;
     width: 40%;
     padding-left: 15%;
-    transform: translateY(-605%) translateX(-10.5%);
+    transform: translateY(-576%) translateX(-16.5%);
     clip-path: polygon(39% 0, 100% 0, 100% 100%, 0% 100%);
     border-bottom-right-radius: 5px;
     font-size: 16px;
@@ -514,14 +508,14 @@ query
   }
   .card {
     margin: 10px;
-    min-width: 785px;
+    min-width:785px;
     width: 90%;
     height: 39vh;
     overflow: hidden;
   }
   .divDescription dd {
     width: 42%;
-    height: 13.8vh;
+    height: 14.85vh;
     padding-left: 16px;
   }
   #bntProvincia {
@@ -594,7 +588,7 @@ query
   }
   .divDescription dd {
     width: 44%;
-    height: 12.2vh;
+    height: 13.3vh;
     padding-left: 16px;
   }
   #bntProvincia {
@@ -632,5 +626,8 @@ query
     padding: 4vh;
     width: 28vh;
     height: 30vh;
+  }
+  .divPrecio dt{
+    align-items: center;
   }
 }
