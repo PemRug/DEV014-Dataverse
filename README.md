@@ -23,18 +23,27 @@
   ## Descripción:
 
 Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a Costa Rica. Te permite:
+
 `Explorar:` Descubre una amplia variedad de atractivos turísticos en Costa Rica, con información detallada como:
+  
   -Nombre: El nombre oficial del atractivo turístico.
+  
   -Provincia: La provincia donde se encuentra ubicado el atractivo.
+  
   -Descripción corta: Un resumen conciso de lo que ofrece el lugar.
+  
   -Precio promedio: Un estimado del costo por día, incluyendo entrada, alimentación y alojamiento.
+  
   -Tipo de turismo: Categorización del atractivo (playa, aventura, cultura).
 
 `Filtrar:` Encuentra los lugares ideales para ti según tus preferencias:
+  
   -Precio: Rango de precios que se ajusta a tu presupuesto.
+  
   -Provincia: Elige la región que deseas visitar.
 
 `Estadísticas:` 
+  
   -Tipo de turismo: Busca los lugares que mejor se adapten a tus intereses, eligiendo la Provincia que tiene el mejor tipo de turismo para ti, entre playa aventura y cultura. 
 
 `Planificar:` Organizar tu viaje con mayor precisión al tener una idea clara de los costos y las opciones disponibles.
