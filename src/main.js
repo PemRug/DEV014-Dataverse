@@ -79,7 +79,8 @@ btnLimpiar.addEventListener('click', () => {
   filterProvincia.selectedIndex = 0;
   sortOption.selectedIndex = 0;
   sortAsc.checked = true;
-  content.appendChild(renderItems(sortData(data,sortOption.value,sortAsc.value)));
+  newData = data;
+  content.appendChild(renderItems(sortData(newData,sortOption.value,sortAsc.value)));
   renderComputeStats(newData);
 });
 
