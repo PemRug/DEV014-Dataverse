@@ -18,9 +18,9 @@
 
 ## 1. Descripción
 
-  #Proyecto Dataverse
+  # Proyecto Dataverse
     
-    ##Descripción:
+  ## Descripción:
 
 Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a Costa Rica. Te permite:
 `Explorar:` Descubre una amplia variedad de atractivos turísticos en Costa Rica, con información detallada como:
@@ -39,7 +39,7 @@ Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a
 
 `Planificar:` Organizar tu viaje con mayor precisión al tener una idea clara de los costos y las opciones disponibles.
 
-  ##Beneficios:
+  ## Beneficios:
 
 `Información completa:` Accede a toda la información relevante para tomar decisiones informadas sobre tu viaje.
 
@@ -49,7 +49,7 @@ Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a
 
 `Planificación eficiente:` Ahorra tiempo y dinero al tener una mejor idea de lo que te espera en tu viaje.
 
-  ##Pura Vida Tour es la herramienta perfecta para:
+  ## Pura Vida Tour es la herramienta perfecta para:
 
 `Viajeros primerizos:` Que buscan información completa y organizada para planificar su viaje a Costa Rica.
 
