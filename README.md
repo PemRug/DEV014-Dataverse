@@ -3,7 +3,7 @@
 ## Índice
 
 * [1. Descripción](#1-Descripción)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2. Funcionalidad](#2-Funcionalidad)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
 * [5. Consideraciones técnicas](#5-consideraciones-técnicas)
@@ -15,10 +15,10 @@
 * [11. Consideraciones para pedir tu Project Feedback](#11-consideraciones-para-pedir-tu-project-feedback)
 
 ***
+# Proyecto Dataverse
 
 ## 1. Descripción
 
-  # Proyecto Dataverse
     
   ## Descripción:
 
@@ -67,43 +67,39 @@ Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a
 `Cualquier persona que desee:` Tomar decisiones informadas sobre su viaje a Costa Rica.
 
 
-Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
-el 90% de la data que existe hoy ha sido creada durante los últimos dos años.
-Cada día generamos 2.5 millones de terabytes de datos, una cifra sin
-precedentes.
+## 2. Funcionalidad
+A continuación podremos visualizar qué elemento realiza cada una de estas funciones:
 
-No obstante, los datos por sí mismos son de poca utilidad. Para que esas
-grandes cantidades de datos se conviertan en **información** fácil de leer para
-las usuarias, necesitamos entender y procesar estos datos. Una manera simple de
-hacerlo es creando _interfaces_ y _visualizaciones_.
+  # Visualización de Cards
 
-En la siguiente imagen, podrás ver cómo con la data que que se ve en la parte
-izquierda se puede construir una interfaz amigable y entendible por las
-usuarias, al lado derecho.
+Para realizar la visualización de cartas mediante prompting se generó un dataset que podemos ver a continuación:
 
-![pokemon-data-to-ui](https://user-images.githubusercontent.com/12631491/218505816-c6d11758-9de4-428f-affb-2a56ea4d68c4.png)
+![esquema 1](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image23.png)
 
-## 2. Resumen del proyecto
+![esquema 2](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image22.png)
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que vas a generar con [prompting](https://www.itmadrid.com/que-es-un-prompt-en-inteligencia-artificial-ia/).
-Esta página web se adecuará a lo que descubras que tu usuaria
-necesita.
+![esquema 3](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image20.png)
 
-Además, en este proyecto utilizarás herramientas de
-[inteligencia artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-como [ChatGPT](https://openai.com/chatgpt), [ExplainDev](https://explain.dev/),
-entre otras para generar un set de datos en un archivo javascript.
+![esquema 4](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image14.png)
 
-El propósito de generar los datos en esta manera es brindarte la oportunidad de
-adentrarte en el empleo de herramientas impulsadas por la inteligencia
-artificial, así como en [técnicas de prompting](https://learnprompting.org/es/docs/intro).
+![esquema 5](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image18.png)
 
-Como entregable final tendrás una página web que permita **visualizar la data,
-filtrarla, ordenarla y calcular alguna estadística**. Con estadística
-nos referimos a distintos cálculos que puedes hacer con los datos para mostrar
-información aún más relevante a las usuarias (promedio, el valor máximo
-o mínimo, etc).
+![esquema 6](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image4.png)
+
+![esquema 7](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image5.png)
+
+![esquema 8](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image2.png)
+
+![esquema 9](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image7.png)
+
+![esquema 10](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image27.png)
+
+![esquema 11](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image11.png)
+
+![esquema 12](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image15.png)
+
+![esquema 13](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image17.png)
+
 
 ## 3. Consideraciones generales
 
