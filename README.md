@@ -70,7 +70,7 @@ Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a
 ## 2. Funcionalidad
 A continuación podremos visualizar qué elemento realiza cada una de estas funciones:
 
-  # Visualización de Cards
+  ## Visualización de Cards
 
 Para realizar la visualización de cartas mediante prompting se generó un dataset que podemos ver a continuación:
 
@@ -100,7 +100,35 @@ Para realizar la visualización de cartas mediante prompting se generó un datas
 
 ![esquema 13](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image17.png)
 
+  ## Render Items
 
+Se procedió a renderizar datos con el método renderItems
+
+```
+export const renderItems = (data) => {
+  const ul = document.createElement('ul');
+  ul.setAttribute('name','ul-root');
+  data.forEach(function(element) {
+    const list= document.createElement('li');
+    list.setAttribute('itemscope','');
+    list.setAttribute('itemtype',element.name);
+    list.classList.add('card');
+    list.innerHTML=`
+    <dl>
+    <div class="divImage"><img src=${element.imageUrl} alt=${element.name} class="imagine-cutted"/></div>
+    <div class="divName"><dd itemprop="name">${element.name}</dd></div>
+    <div class="divStars"> <img src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/01c79ef9f70a89e36ef48ce985bc36e527598bef/Imagenes%20Dataverse/05-icon-stars.svg" alt="Star 1">  <img src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/01c79ef9f70a89e36ef48ce985bc36e527598bef/Imagenes%20Dataverse/05-icon-stars.svg" alt="Star 2">  <img src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/01c79ef9f70a89e36ef48ce985bc36e527598bef/Imagenes%20Dataverse/05-icon-stars.svg" alt="Star 3">  <img src="https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/01c79ef9f70a89e36ef48ce985bc36e527598bef/Imagenes%20Dataverse/05-icon-stars.svg" alt="Star 4"></div>
+    <div class="divPrecio"><dt itemprop="gastoPromedio">$${element.gastoPromedio}<span>gasto promedio diario</span></dt></div>
+    <div class="divDescription"><dt></dt><dd itemprop="shortDescription">${element.shortDescription}</dd></div>
+    <button type="button" id="bntReadMore">Leer Más</button>
+    <button type="button" id="bntProvincia">${element.location}</button>
+    </dl>
+    `;
+    ul.appendChild(list);
+  });
+  return ul;
+};
+```
 ## 3. Consideraciones generales
 
 * Este proyecto se debe resolver en duplas.
