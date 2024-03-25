@@ -41,12 +41,12 @@ describe('test function `sortData`', () => {
 
 describe('test function `computeStats`', () =>{
   const expectCompute = [{
-    "tipoTurismo": "turismo de aventura",
+    "tipoTurismo": "turismo de playa",
     "cantidad": 1,
     "porcentaje": 50,
   },
   {
-    "tipoTurismo": "turismo de playa",
+    "tipoTurismo": "turismo de aventura",
     "cantidad": 1,
     "porcentaje": 50,
   },
