@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-Descripción)
+* [1. Descripción](#1-Descripción)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Consideraciones generales](#3-consideraciones-generales)
 * [4. Funcionalidades](#4-funcionalidades)
@@ -18,30 +18,44 @@
 
 ## 1. Descripción
 
-Proyecto Dataverse
-Descripción:
+  #Proyecto Dataverse
+    
+    ##Descripción:
+
 Pura Vida Tours es una página web que te ayuda a planificar tu viaje perfecto a Costa Rica. Te permite:
-Explorar: Descubre una amplia variedad de atractivos turísticos en Costa Rica, con información detallada como:
-Nombre: El nombre oficial del atractivo turístico.
-Provincia: La provincia donde se encuentra ubicado el atractivo.
-Descripción corta: Un resumen conciso de lo que ofrece el lugar.
-Precio promedio: Un estimado del costo por día, incluyendo entrada, alimentación y alojamiento.
-Tipo de turismo: Categorización del atractivo (playa, aventura, cultura).
-Filtrar: Encuentra los lugares ideales para ti según tus preferencias:
-Precio: Rango de precios que se ajusta a tu presupuesto.
-Provincia: Elige la región que deseas visitar.
-Estadísticas: 
-Tipo de turismo: Busca los lugares que mejor se adapten a tus intereses, eligiendo la Provincia que tiene el mejor tipo de turismo para ti, entre playa aventura y cultura. 
-Planificar: Organizar tu viaje con mayor precisión al tener una idea clara de los costos y las opciones disponibles.
-Beneficios:
-Información completa: Accede a toda la información relevante para tomar decisiones informadas sobre tu viaje.
-Fácil de usar: Interfaz intuitiva y amigable para que encuentres lo que necesitas rápidamente.
-Personalizable: Filtra y compara lugares según tus preferencias para encontrar tu experiencia ideal.
-Planificación eficiente: Ahorra tiempo y dinero al tener una mejor idea de lo que te espera en tu viaje.
-Pura Vida Tour es la herramienta perfecta para:
-Viajeros primerizos: Que buscan información completa y organizada para planificar su viaje a Costa Rica.
-Turistas experimentados: Que desean explorar nuevos lugares y comparar diferentes opciones.
-Cualquier persona que desee: Tomar decisiones informadas sobre su viaje a Costa Rica.
+`Explorar:` Descubre una amplia variedad de atractivos turísticos en Costa Rica, con información detallada como:
+  -Nombre: El nombre oficial del atractivo turístico.
+  -Provincia: La provincia donde se encuentra ubicado el atractivo.
+  -Descripción corta: Un resumen conciso de lo que ofrece el lugar.
+  -Precio promedio: Un estimado del costo por día, incluyendo entrada, alimentación y alojamiento.
+  -Tipo de turismo: Categorización del atractivo (playa, aventura, cultura).
+
+`Filtrar:` Encuentra los lugares ideales para ti según tus preferencias:
+  -Precio: Rango de precios que se ajusta a tu presupuesto.
+  -Provincia: Elige la región que deseas visitar.
+
+`Estadísticas:` 
+  -Tipo de turismo: Busca los lugares que mejor se adapten a tus intereses, eligiendo la Provincia que tiene el mejor tipo de turismo para ti, entre playa aventura y cultura. 
+
+`Planificar:` Organizar tu viaje con mayor precisión al tener una idea clara de los costos y las opciones disponibles.
+
+  ##Beneficios:
+
+`Información completa:` Accede a toda la información relevante para tomar decisiones informadas sobre tu viaje.
+
+`Fácil de usar:` Interfaz intuitiva y amigable para que encuentres lo que necesitas rápidamente.
+
+`Personalizable:` Filtra y compara lugares según tus preferencias para encontrar tu experiencia ideal.
+
+`Planificación eficiente:` Ahorra tiempo y dinero al tener una mejor idea de lo que te espera en tu viaje.
+
+  ##Pura Vida Tour es la herramienta perfecta para:
+
+`Viajeros primerizos:` Que buscan información completa y organizada para planificar su viaje a Costa Rica.
+
+`Turistas experimentados:` Que desean explorar nuevos lugares y comparar diferentes opciones.
+
+`Cualquier persona que desee:` Tomar decisiones informadas sobre su viaje a Costa Rica.
 
 
 Según [Forbes](https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read),
