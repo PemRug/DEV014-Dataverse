@@ -358,7 +358,7 @@ Footer
 ## 4. Historias de usuario:
 Se realizaron 5 historia de usuario que podrán ser visualizadas en estre link: https://www.notion.so/Que-quieren-los-turistas-al-vistar-Costa-Rica-ec371c3b51934df1b9d930a19bcd1b0a?pvs=4
 
-![imageHusuario](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image16.png)
+![imageHusuario](https://raw.githubusercontent.com/Maddyrojas/DEV014-Dataverse/main/README/images/image28.png)
 
 ### Diseño:
 Se han creado vistas para mobile, tablet y desktop.
