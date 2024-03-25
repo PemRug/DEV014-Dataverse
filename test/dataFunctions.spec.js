@@ -55,5 +55,7 @@ describe('test function `computeStats`', () =>{
     "cantidad": 0,
     "porcentaje": 0
   },];
-  expect(computeStats(fakeData)).toEqual(expectCompute);
+  it('devuelve `computeStats` con un array de tipo turismo', () => {
+    expect(computeStats(fakeData)).toEqual(expectCompute);
+  });
 });

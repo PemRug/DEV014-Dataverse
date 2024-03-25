@@ -12,6 +12,7 @@ const btnLimpiar = document.querySelector('button[data-testid="button-clear"]');
 const btnHeader = document.querySelector('button[name="btn-header"]');
 const filterZone = document.querySelector('div[name="filter-zone"]');
 content.appendChild(renderItems(sortData(data,sortOption.value,sortAsc.value)));
+renderComputeStats(newData);
 /*
 Evento Filtrar por provincia
 Escucha los cambios en el select de filtrarProvincia
@@ -79,12 +80,10 @@ btnLimpiar.addEventListener('click', () => {
   sortOption.selectedIndex = 0;
   sortAsc.checked = true;
   content.appendChild(renderItems(sortData(data,sortOption.value,sortAsc.value)));
-  document.querySelector('strong[id="aventura"]').innerHTML= "70.83%";
-  document.querySelector('strong[id="cultura"]').innerHTML= "4.17%";
-  document.querySelector('strong[id="playa"]').innerHTML= "25.00%";
+  renderComputeStats(newData);
 });
 
-const renderComputeStats = (data) =>{
+function renderComputeStats (data) {
   const arrCompute = computeStats(data);
   document.querySelector('strong[id="aventura"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo de aventura")).porcentaje).toFixed(2) +"%";
   document.querySelector('strong[id="playa"]').innerHTML = ((arrCompute.find(typeTour=>typeTour.tipoTurismo==="turismo de playa")).porcentaje).toFixed(2) +"%";
