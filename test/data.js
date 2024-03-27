@@ -18,29 +18,12 @@ export const data = [
     "tipoTurismo": "turismo de playa",
     "gastoPromedio": 120,
   },
+  {//07_Teatro Nacional de Costa Rica
+    "id": "07_lugarTuristico",
+    "name": "Teatro Nacional de Costa Rica",
+    "location": "San José",
+    "shortDescription": "Joyero arquitectónico y cultural en el corazón de San José.",
+    "tipoTurismo": "turismo cultural",
+    "gastoPromedio": 50,
+  },
 ];
-//   {//03_Reserva Biológica Bosque Nuboso Monteverde
-//     "id": "03_lugarTuristico",
-//     "name": "Reserva Biológica Bosque Nuboso Monteverde",
-//     "location": "Puntarenas",
-//     "shortDescription": "Explora un bosque nuboso lleno de biodiversidad única.",
-//     "tipoTurismo": "turismo de aventura",
-//     "gastoPromedio": 130,
-//   },
-//   {//04_Parque Nacional Tortuguero
-//     "id": "04_lugarTuristico",
-//     "name": "Parque Nacional Tortuguero",
-//     "location": "Limón",
-//     "shortDescription": "Refugio de tortugas marinas rodeado de canales y exuberante vegetación.",
-//     "tipoTurismo": "turismo de aventura",
-//     "gastoPromedio": 140,
-//   },
-//   {//05_Parque Nacional Corcovado
-//     "id": "05_lugarTuristico",
-//     "name": "Parque Nacional Corcovado",
-//     "location": "Puntarenas",
-//     "shortDescription": "Reserva natural con selva tropical y vida silvestre diversa.",
-//     "tipoTurismo": "turismo de aventura",
-//     "gastoPromedio": 160,
-//   },
-// ];

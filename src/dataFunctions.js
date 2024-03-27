@@ -34,14 +34,14 @@ export const computeStats = (data) => {//data completa 24, o data filtrada 2 50%
     cantidad,
     porcentaje: ((Number(cantidad) * 100) / data.length),
   }));
-  if (!arrayTurismo.some(typeTour=>typeTour.tipoTurismo==="turismo cultural")) {
-    arrayTurismo.push({tipoTurismo: "turismo cultural",cantidad: 0,porcentaje: 0});
-  }
   if (!arrayTurismo.some(typeTour=>typeTour.tipoTurismo==="turismo de playa")) {
     arrayTurismo.push({tipoTurismo: "turismo de playa",cantidad: 0,porcentaje: 0});
   }
   if (!arrayTurismo.some(typeTour=>typeTour.tipoTurismo==="turismo de aventura")) {
     arrayTurismo.push({tipoTurismo: "turismo de aventura",cantidad: 0,porcentaje: 0});
+  }
+  if (!arrayTurismo.some(typeTour=>typeTour.tipoTurismo==="turismo cultural")) {
+    arrayTurismo.push({tipoTurismo: "turismo cultural",cantidad: 0,porcentaje: 0});
   }
   return arrayTurismo;
 };

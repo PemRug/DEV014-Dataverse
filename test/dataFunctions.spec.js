@@ -26,6 +26,14 @@ describe('test function `sortData`', () => {
     "tipoTurismo": "turismo de playa",
     "gastoPromedio": 120,
   },
+  {//07_Teatro Nacional de Costa Rica
+    "id": "07_lugarTuristico",
+    "name": "Teatro Nacional de Costa Rica",
+    "location": "San José",
+    "shortDescription": "Joyero arquitectónico y cultural en el corazón de San José.",
+    "tipoTurismo": "turismo cultural",
+    "gastoPromedio": 50,
+  },
   {// 01_Volcán Arenal
     "id": "01_lugarTuristico",
     "name": "Volcán Arenal",
@@ -43,17 +51,17 @@ describe('test function `computeStats`', () =>{
   const expectCompute = [{
     "tipoTurismo": "turismo de playa",
     "cantidad": 1,
-    "porcentaje": 50,
+    "porcentaje": 33.333333333333336,
+  },
+  {
+    "tipoTurismo": "turismo cultural",
+    "cantidad": 1,
+    "porcentaje": 33.333333333333336,
   },
   {
     "tipoTurismo": "turismo de aventura",
     "cantidad": 1,
-    "porcentaje": 50,
-  },
-  {
-    "tipoTurismo": "turismo cultural",
-    "cantidad": 0,
-    "porcentaje": 0
+    "porcentaje": 33.333333333333336,
   },];
   it('devuelve `computeStats` con un array de tipo turismo', () => {
     expect(computeStats(fakeData)).toEqual(expectCompute);
